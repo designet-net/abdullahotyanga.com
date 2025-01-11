@@ -1,2 +1,9 @@
 # abdullahotyanga.com
-Built in wordpress the website  promotes the transformative power of ancient wisdom and spiritual energy to bring meaningful changes to people's lives. 
+Technologies:
+ReactJS, MySQL, PHP, HTML, CSS
+JavaScript, Laravel
+Foundation and Bootstrap Framework
+WordPress Platforms
+CPanel Platform Technologies
+Teaching Skills
+Built: January 2024
