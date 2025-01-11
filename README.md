@@ -1,9 +1,10 @@
-Technologies
-WordPress Platform
-PHP
-MySQL
-HTML
-CSS
-JavaScript
-Bootstrap Framework (or Foundation)
+
+Technologies: 
+WordPress Platform,
+PHP,
+MySQL,
+HTML,
+CSS,
+JavaScript,
+Bootstrap Framework (or Foundation),
 CPanel Platform Technologies
