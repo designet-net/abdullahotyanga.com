@@ -1,9 +1,9 @@
-# abdullahotyanga.com
-Technologies:
-ReactJS, MySQL, PHP, HTML, CSS
-JavaScript, Laravel
-Foundation and Bootstrap Framework
-WordPress Platforms
+Technologies
+WordPress Platform
+PHP
+MySQL
+HTML
+CSS
+JavaScript
+Bootstrap Framework (or Foundation)
 CPanel Platform Technologies
-Teaching Skills
-Built: January 2024
