@@ -1,0 +1,32 @@
+[27-Nov-2024 16:38:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php on line 17
+[27-Nov-2024 16:38:49 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php on line 17
+[27-Nov-2024 16:38:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php on line 17
+[27-Nov-2024 16:38:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php on line 17
+[27-Nov-2024 16:38:52 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php on line 17
+[27-Nov-2024 16:38:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php on line 17
+[27-Nov-2024 16:38:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php on line 17
+[27-Nov-2024 16:38:57 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Controller" not found in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/novus6sk/abdullahotyanga.com/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php on line 17

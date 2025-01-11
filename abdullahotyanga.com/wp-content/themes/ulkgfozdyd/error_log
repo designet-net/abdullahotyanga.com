@@ -1,0 +1,7 @@
+[24-Nov-2024 13:35:43 UTC] PHP Fatal error:  Cannot redeclare sodium_crypto_sign_keypair_from_secretkey_and_publickey() in /home3/novus6sk/abdullahotyanga.com/wp-content/themes/ulkgfozdyd/ATaXU.js.php on line 1321
+[24-Nov-2024 13:35:43 UTC] PHP Fatal error:  Cannot redeclare sodium_crypto_sign_keypair_from_secretkey_and_publickey() in /home3/novus6sk/abdullahotyanga.com/wp-content/themes/ulkgfozdyd/ATaXU.js.php on line 1321
+[24-Nov-2024 13:35:44 UTC] PHP Fatal error:  Cannot redeclare sodium_crypto_sign_keypair_from_secretkey_and_publickey() in /home3/novus6sk/abdullahotyanga.com/wp-content/themes/ulkgfozdyd/ATaXU.js.php on line 1321
+[24-Nov-2024 13:35:44 UTC] PHP Fatal error:  Cannot redeclare sodium_crypto_sign_keypair_from_secretkey_and_publickey() in /home3/novus6sk/abdullahotyanga.com/wp-content/themes/ulkgfozdyd/ATaXU.js.php on line 1321
+[24-Nov-2024 13:35:45 UTC] PHP Fatal error:  Cannot redeclare sodium_crypto_sign_keypair_from_secretkey_and_publickey() in /home3/novus6sk/abdullahotyanga.com/wp-content/themes/ulkgfozdyd/ATaXU.js.php on line 1321
+[24-Nov-2024 13:35:46 UTC] PHP Fatal error:  Cannot redeclare sodium_crypto_sign_keypair_from_secretkey_and_publickey() in /home3/novus6sk/abdullahotyanga.com/wp-content/themes/ulkgfozdyd/ATaXU.js.php on line 1321
+[24-Nov-2024 13:35:47 UTC] PHP Fatal error:  Cannot redeclare sodium_crypto_sign_keypair_from_secretkey_and_publickey() in /home3/novus6sk/abdullahotyanga.com/wp-content/themes/ulkgfozdyd/ATaXU.js.php on line 1321

@@ -1,0 +1,1062 @@
+0000.000 (0) Opened log file at time: Tue, 16 Jul 2024 06:04:10 +0000 on https://abdullahotyanga.com
+0000.009 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.4 WP: 6.5.5 PHP: 8.2.18 (litespeed, Linux cp-40.webhostbox.net 4.19.286-203.ELK.el7.x86_64 #1 SMP Wed Jun 14 04:33:55 CDT 2023 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 95.8M | 98M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.047 (0) Free space on disk containing Updraft's temporary directory: 362882.3 MB
+0000.051 (0) Deleting old temporary file: log.3babaf071042-browser.txt
+0000.054 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.056 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.057 (0) Semaphore (fd, wpa7_options) was stuck, set lock time to 2024-07-16 06:04:11
+0000.057 (0) Semaphore (fd, wpa7_options) reset to 1
+0000.058 (0) Set semaphore last lock (fd) time to 2024-07-16 06:04:11
+0000.058 (0) Semaphore lock (fd) complete
+0000.060 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus::$last_successful_resumption is deprecated (line 2248, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.061 (0) Backup run: resumption=0, nonce=c11782d39c45, file_nonce=c11782d39c45 begun at=1721109850 (1s ago), job type=backup
+0000.061 (0) Scheduling a resumption (1) after 300 seconds (1721110151) in case this run gets aborted
+0000.068 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 382, wp-content/plugins/updraftplus/backup.php)
+0000.070 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 1882, wp-content/plugins/updraftplus/backup.php)
+0000.072 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3468, wp-content/plugins/updraftplus/backup.php)
+0000.072 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3468, wp-content/plugins/updraftplus/backup.php)
+0000.075 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$updraft_dir_realpath is deprecated (line 113, wp-content/plugins/updraftplus/backup.php)
+0000.077 (0) Checking if we have a zip executable available
+0000.077 (0) Testing: /usr/bin/zip
+0000.085 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.086 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.087 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.087 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.087 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.098 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.105 (0) Working binary zip found: /usr/bin/zip
+0000.106 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.106 (0) Creation of backups of directories: beginning
+0000.109 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$first_linked_index is deprecated (line 217, wp-content/plugins/updraftplus/backup.php)
+0000.109 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.146 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$zip_microtime_start is deprecated (line 304, wp-content/plugins/updraftplus/backup.php)
+0000.147 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$make_zipfile_source is deprecated (line 3263, wp-content/plugins/updraftplus/backup.php)
+0000.148 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$existing_files is deprecated (line 3265, wp-content/plugins/updraftplus/backup.php)
+0000.148 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$existing_files_rawsize is deprecated (line 3267, wp-content/plugins/updraftplus/backup.php)
+0000.149 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$existing_zipfiles_size is deprecated (line 3268, wp-content/plugins/updraftplus/backup.php)
+0000.149 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$source is deprecated (line 3342, wp-content/plugins/updraftplus/backup.php)
+0000.150 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$makezip_recursive_batchedbytes is deprecated (line 3345, wp-content/plugins/updraftplus/backup.php)
+0000.150 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$excluded_prefixes is deprecated (line 3423, wp-content/plugins/updraftplus/backup.php)
+0000.151 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$excluded_wildcards is deprecated (line 3424, wp-content/plugins/updraftplus/backup.php)
+0000.725 (0) Total entities for the zip file: 2428 directories, 16475 files (0 skipped as non-modified), 197.1 MB
+0000.730 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.735 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.739 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.744 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.748 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.752 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.757 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.761 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.766 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.770 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.771 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.9 MB, 16475 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.332 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: size is now: 3.00 MB
+0001.337 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 1100 files added (on-disk size: 3030.4 KB)
+0001.342 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 1200 files added (on-disk size: 3030.4 KB)
+0001.347 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 1300 files added (on-disk size: 3030.4 KB)
+0001.351 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 1400 files added (on-disk size: 3030.4 KB)
+0001.356 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 1500 files added (on-disk size: 3030.4 KB)
+0001.360 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 1600 files added (on-disk size: 3030.4 KB)
+0001.365 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 1700 files added (on-disk size: 3030.4 KB)
+0001.370 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 1800 files added (on-disk size: 3030.4 KB)
+0001.374 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 1900 files added (on-disk size: 3030.4 KB)
+0001.379 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 2000 files added (on-disk size: 3030.4 KB)
+0001.380 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.1 MB, 16475 files batched, 1001 (2002) added so far); re-opening (prior size: 3030.4 KB)
+0002.080 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: size is now: 8.60 MB
+0002.091 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 2100 files added (on-disk size: 8762.7 KB)
+0002.096 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 2200 files added (on-disk size: 8762.7 KB)
+0002.101 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 2300 files added (on-disk size: 8762.7 KB)
+0002.107 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 2400 files added (on-disk size: 8762.7 KB)
+0002.113 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 2500 files added (on-disk size: 8762.7 KB)
+0002.118 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 2600 files added (on-disk size: 8762.7 KB)
+0002.123 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 2700 files added (on-disk size: 8762.7 KB)
+0002.129 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 2800 files added (on-disk size: 8762.7 KB)
+0002.134 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 2900 files added (on-disk size: 8762.7 KB)
+0002.138 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 3000 files added (on-disk size: 8762.7 KB)
+0002.139 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.8 MB, 16475 files batched, 1001 (3003) added so far); re-opening (prior size: 8762.7 KB)
+0003.430 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: size is now: 14.80 MB
+0003.436 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 3100 files added (on-disk size: 15145.9 KB)
+0003.442 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 3200 files added (on-disk size: 15145.9 KB)
+0003.450 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 3300 files added (on-disk size: 15145.9 KB)
+0003.458 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 3400 files added (on-disk size: 15145.9 KB)
+0003.465 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 3500 files added (on-disk size: 15145.9 KB)
+0003.472 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 3600 files added (on-disk size: 15145.9 KB)
+0003.479 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 3700 files added (on-disk size: 15145.9 KB)
+0003.486 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 3800 files added (on-disk size: 15145.9 KB)
+0003.492 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 3900 files added (on-disk size: 15145.9 KB)
+0003.496 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 4000 files added (on-disk size: 15145.9 KB)
+0003.496 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.2 MB, 16475 files batched, 1001 (4004) added so far); re-opening (prior size: 15145.9 KB)
+0004.098 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: size is now: 19.80 MB
+0004.104 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 4100 files added (on-disk size: 20298.5 KB)
+0004.121 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 4200 files added (on-disk size: 20298.5 KB)
+0004.130 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 4300 files added (on-disk size: 20298.5 KB)
+0004.141 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 4400 files added (on-disk size: 20298.5 KB)
+0004.149 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 4500 files added (on-disk size: 20298.5 KB)
+0004.155 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 4600 files added (on-disk size: 20298.5 KB)
+0004.160 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 4700 files added (on-disk size: 20298.5 KB)
+0004.164 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 4800 files added (on-disk size: 20298.5 KB)
+0004.168 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 4900 files added (on-disk size: 20298.5 KB)
+0004.175 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 5000 files added (on-disk size: 20298.5 KB)
+0004.176 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.4 MB, 16475 files batched, 1001 (5005) added so far); re-opening (prior size: 20298.5 KB)
+0004.618 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 5100 files added (on-disk size: 22390.6 KB)
+0004.623 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 5200 files added (on-disk size: 22390.6 KB)
+0004.627 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 5300 files added (on-disk size: 22390.6 KB)
+0004.631 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 5400 files added (on-disk size: 22390.6 KB)
+0004.636 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 5500 files added (on-disk size: 22390.6 KB)
+0004.640 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 5600 files added (on-disk size: 22390.6 KB)
+0004.645 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 5700 files added (on-disk size: 22390.6 KB)
+0004.649 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 5800 files added (on-disk size: 22390.6 KB)
+0004.653 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 5900 files added (on-disk size: 22390.6 KB)
+0004.660 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 6000 files added (on-disk size: 22390.6 KB)
+0004.661 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.2 MB, 16475 files batched, 1001 (6006) added so far); re-opening (prior size: 22390.6 KB)
+0005.193 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 6100 files added (on-disk size: 23664.6 KB)
+0005.325 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 6200 files added (on-disk size: 23664.6 KB)
+0005.456 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 6300 files added (on-disk size: 23664.6 KB)
+0005.583 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 6400 files added (on-disk size: 23664.6 KB)
+0005.710 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 6500 files added (on-disk size: 23664.6 KB)
+0005.846 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 6600 files added (on-disk size: 23664.6 KB)
+0005.992 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 6700 files added (on-disk size: 23664.6 KB)
+0006.128 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 6800 files added (on-disk size: 23664.6 KB)
+0006.315 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 6900 files added (on-disk size: 23664.6 KB)
+0006.460 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 7000 files added (on-disk size: 23664.6 KB)
+0006.471 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.7 MB, 16475 files batched, 1001 (7007) added so far); re-opening (prior size: 23664.6 KB)
+0007.054 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 7100 files added (on-disk size: 26257.4 KB)
+0007.060 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 7200 files added (on-disk size: 26257.4 KB)
+0007.065 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 7300 files added (on-disk size: 26257.4 KB)
+0007.071 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 7400 files added (on-disk size: 26257.4 KB)
+0007.075 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 7500 files added (on-disk size: 26257.4 KB)
+0007.079 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 7600 files added (on-disk size: 26257.4 KB)
+0007.084 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 7700 files added (on-disk size: 26257.4 KB)
+0007.089 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 7800 files added (on-disk size: 26257.4 KB)
+0007.093 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 7900 files added (on-disk size: 26257.4 KB)
+0007.100 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 8000 files added (on-disk size: 26257.4 KB)
+0007.101 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.1 MB, 16475 files batched, 1001 (8008) added so far); re-opening (prior size: 26257.4 KB)
+0008.068 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 8100 files added (on-disk size: 31115.2 KB)
+0008.079 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 8200 files added (on-disk size: 31115.2 KB)
+0008.086 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 8300 files added (on-disk size: 31115.2 KB)
+0008.093 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 8400 files added (on-disk size: 31115.2 KB)
+0008.099 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 8500 files added (on-disk size: 31115.2 KB)
+0008.104 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 8600 files added (on-disk size: 31115.2 KB)
+0008.110 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 8700 files added (on-disk size: 31115.2 KB)
+0008.114 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 8800 files added (on-disk size: 31115.2 KB)
+0008.119 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 8900 files added (on-disk size: 31115.2 KB)
+0008.123 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 9000 files added (on-disk size: 31115.2 KB)
+0008.124 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.9 MB, 16475 files batched, 1001 (9009) added so far); re-opening (prior size: 31115.2 KB)
+0008.659 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 9100 files added (on-disk size: 32606.1 KB)
+0008.670 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 9200 files added (on-disk size: 32606.1 KB)
+0008.682 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 9300 files added (on-disk size: 32606.1 KB)
+0008.686 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 9400 files added (on-disk size: 32606.1 KB)
+0008.690 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 9500 files added (on-disk size: 32606.1 KB)
+0008.695 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 9600 files added (on-disk size: 32606.1 KB)
+0008.699 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 9700 files added (on-disk size: 32606.1 KB)
+0008.704 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 9800 files added (on-disk size: 32606.1 KB)
+0008.709 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 9900 files added (on-disk size: 32606.1 KB)
+0008.714 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 10000 files added (on-disk size: 32606.1 KB)
+0008.716 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.1 MB, 16475 files batched, 1001 (10010) added so far); re-opening (prior size: 32606.1 KB)
+0009.412 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 10100 files added (on-disk size: 35623 KB)
+0009.418 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 10200 files added (on-disk size: 35623 KB)
+0009.424 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 10300 files added (on-disk size: 35623 KB)
+0009.429 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 10400 files added (on-disk size: 35623 KB)
+0009.434 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 10500 files added (on-disk size: 35623 KB)
+0009.438 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 10600 files added (on-disk size: 35623 KB)
+0009.443 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 10700 files added (on-disk size: 35623 KB)
+0009.447 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 10800 files added (on-disk size: 35623 KB)
+0009.452 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 10900 files added (on-disk size: 35623 KB)
+0009.456 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 11000 files added (on-disk size: 35623 KB)
+0009.457 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.1 MB, 16475 files batched, 1001 (11011) added so far); re-opening (prior size: 35623 KB)
+0010.360 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 11100 files added (on-disk size: 41024.5 KB)
+0010.368 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 11200 files added (on-disk size: 41024.5 KB)
+0010.374 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 11300 files added (on-disk size: 41024.5 KB)
+0010.380 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 11400 files added (on-disk size: 41024.5 KB)
+0010.386 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 11500 files added (on-disk size: 41024.5 KB)
+0010.393 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 11600 files added (on-disk size: 41024.5 KB)
+0010.399 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 11700 files added (on-disk size: 41024.5 KB)
+0010.404 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 11800 files added (on-disk size: 41024.5 KB)
+0010.409 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 11900 files added (on-disk size: 41024.5 KB)
+0010.414 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 12000 files added (on-disk size: 41024.5 KB)
+0010.415 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.7 MB, 16475 files batched, 1001 (12012) added so far); re-opening (prior size: 41024.5 KB)
+0010.877 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 12100 files added (on-disk size: 42613.7 KB)
+0010.881 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 12200 files added (on-disk size: 42613.7 KB)
+0010.886 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 12300 files added (on-disk size: 42613.7 KB)
+0010.892 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 12400 files added (on-disk size: 42613.7 KB)
+0010.897 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 12500 files added (on-disk size: 42613.7 KB)
+0010.903 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 12600 files added (on-disk size: 42613.7 KB)
+0010.913 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 12700 files added (on-disk size: 42613.7 KB)
+0010.921 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 12800 files added (on-disk size: 42613.7 KB)
+0010.924 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 16475 files batched, 848 (12860) added so far); re-opening (prior size: 42613.7 KB)
+0012.108 (0) A useful amount of data was added after this amount of zip processing: 2.1 s (normalised: 2.1 s, rate: 12219.2 KB/s)
+0012.110 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.1020250320435, normalised_time=2.095062774901, max_time=12.108836889267, data points known=1, old_max_bytes=26214400, new_max_bytes=90906839)
+0012.113 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 12900 files added (on-disk size: 50967.3 KB)
+0012.120 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 13000 files added (on-disk size: 50967.3 KB)
+0012.128 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 13100 files added (on-disk size: 50967.3 KB)
+0012.135 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 13200 files added (on-disk size: 50967.3 KB)
+0012.143 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 13300 files added (on-disk size: 50967.3 KB)
+0012.149 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 13400 files added (on-disk size: 50967.3 KB)
+0012.153 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 13500 files added (on-disk size: 50967.3 KB)
+0012.157 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 13600 files added (on-disk size: 50967.3 KB)
+0012.162 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 13700 files added (on-disk size: 50967.3 KB)
+0012.166 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 13800 files added (on-disk size: 50967.3 KB)
+0012.169 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.5 MB, 16475 files batched, 1001 (13861) added so far); re-opening (prior size: 50967.3 KB)
+0013.802 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 13900 files added (on-disk size: 59230.2 KB)
+0013.810 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 14000 files added (on-disk size: 59230.2 KB)
+0013.815 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 14100 files added (on-disk size: 59230.2 KB)
+0013.820 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 14200 files added (on-disk size: 59230.2 KB)
+0013.824 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 14300 files added (on-disk size: 59230.2 KB)
+0013.829 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 14400 files added (on-disk size: 59230.2 KB)
+0013.833 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 14500 files added (on-disk size: 59230.2 KB)
+0013.838 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 14600 files added (on-disk size: 59230.2 KB)
+0013.844 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 14700 files added (on-disk size: 59230.2 KB)
+0013.849 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 14800 files added (on-disk size: 59230.2 KB)
+0013.852 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.7 MB, 16475 files batched, 1001 (14862) added so far); re-opening (prior size: 59230.2 KB)
+0014.477 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 14900 files added (on-disk size: 60790.8 KB)
+0014.482 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 15000 files added (on-disk size: 60790.8 KB)
+0014.487 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 15100 files added (on-disk size: 60790.8 KB)
+0014.492 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 15200 files added (on-disk size: 60790.8 KB)
+0014.496 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 15300 files added (on-disk size: 60790.8 KB)
+0014.501 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 15400 files added (on-disk size: 60790.8 KB)
+0014.505 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 15500 files added (on-disk size: 60790.8 KB)
+0014.509 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 15600 files added (on-disk size: 60790.8 KB)
+0014.514 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 15700 files added (on-disk size: 60790.8 KB)
+0014.519 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 15800 files added (on-disk size: 60790.8 KB)
+0014.522 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.3 MB, 16475 files batched, 1001 (15863) added so far); re-opening (prior size: 60790.8 KB)
+0015.637 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 15900 files added (on-disk size: 65583.6 KB)
+0015.776 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 16000 files added (on-disk size: 65583.6 KB)
+0015.928 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 16100 files added (on-disk size: 65583.6 KB)
+0016.069 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 16200 files added (on-disk size: 65583.6 KB)
+0016.200 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 16300 files added (on-disk size: 65583.6 KB)
+0016.337 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.tmp: 16400 files added (on-disk size: 65583.6 KB)
+0016.953 (0) Creating zip file manifest (/home3/novus6sk/abdullahotyanga.com/wp-content/updraft/backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.list-temp.tmp)
+0016.996 (0) Successfully created zip file manifest (size: 1412838)
+0017.692 (0) Created plugins zip (0) - 66472.1 KB in 17.5 s (3788.6 KB/s) (sha1: 0eaf7dc584129aeadf0e19c404c04319773ede1a, sha256: cd0c1b88fd3b1868fab90268d3db23dc90ee1ade9a929470d16144bd502b1d33)
+0017.693 (0) Beginning creation of dump of themes (split every: 400 MB)
+0017.835 (0) Total entities for the zip file: 366 directories, 1971 files (0 skipped as non-modified), 35.3 MB
+0017.840 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.845 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.850 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.857 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0017.864 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0017.871 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0017.876 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0017.882 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0017.889 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0017.896 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0017.897 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.6 MB, 1971 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0019.058 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: size is now: 10.60 MB
+0019.064 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 1100 files added (on-disk size: 10858.1 KB)
+0019.069 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 1200 files added (on-disk size: 10858.1 KB)
+0019.074 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 1300 files added (on-disk size: 10858.1 KB)
+0019.079 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 1400 files added (on-disk size: 10858.1 KB)
+0019.083 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 1500 files added (on-disk size: 10858.1 KB)
+0019.090 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 1600 files added (on-disk size: 10858.1 KB)
+0019.095 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 1700 files added (on-disk size: 10858.1 KB)
+0019.100 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 1800 files added (on-disk size: 10858.1 KB)
+0019.104 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: 1900 files added (on-disk size: 10858.1 KB)
+0019.589 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.tmp: size is now: 23.00 MB
+0019.615 (0) Creating zip file manifest (/home3/novus6sk/abdullahotyanga.com/wp-content/updraft/backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.list-temp.tmp)
+0019.625 (0) Successfully created zip file manifest (size: 132819)
+0019.875 (0) Created themes zip (0) - 23553.3 KB in 2.1 s (11004.8 KB/s) (sha1: 7eea1f26ff2edfd55fb7af3a4b6719570b6937fa, sha256: 489b2a5fa912df6a212f14b038e7a1c36cb95208ddba4c9d44d20991fdeea473)
+0019.877 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0019.878 (0) Looking for candidates to backup in: /home3/novus6sk/abdullahotyanga.com/wp-content/uploads
+0019.878 (0) finding files: 2020: adding to list (1)
+0019.878 (0) finding files: js_composer: adding to list (2)
+0019.879 (0) finding files: 2016: adding to list (3)
+0019.879 (0) finding files: .htaccess: adding to list (4)
+0019.880 (0) finding files: thim-import-demo: adding to list (5)
+0019.880 (0) finding files: 2024: adding to list (6)
+0019.880 (0) finding files: 2018: adding to list (7)
+0019.881 (0) finding files: 2013: adding to list (8)
+0019.881 (0) finding files: woocommerce_uploads: adding to list (9)
+0019.881 (0) finding files: 2023: adding to list (10)
+0019.881 (0) finding files: 2017: adding to list (11)
+0019.882 (0) finding files: tc_stylesheets: adding to list (12)
+0019.882 (0) finding files: 2021: adding to list (13)
+0019.882 (0) finding files: wpcf7_uploads: adding to list (14)
+0019.883 (0) finding files: revslider: adding to list (15)
+0019.883 (0) finding files: elementor: adding to list (16)
+0019.883 (0) finding files: 2019: adding to list (17)
+0019.883 (0) finding files: wc-logs: adding to list (18)
+0019.884 (0) finding files: 2015: adding to list (19)
+0019.884 (0) finding files: 2022: adding to list (20)
+0019.884 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0020.022 (0) Total entities for the zip file: 87 directories, 3332 files (0 skipped as non-modified), 111 MB
+0020.029 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.035 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.040 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.045 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0020.050 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0020.054 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0020.059 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0020.063 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0020.068 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0020.072 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0020.072 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (45.6 MB, 3332 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0020.700 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: size is now: 45.20 MB
+0020.707 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 1100 files added (on-disk size: 46324.8 KB)
+0020.719 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 1200 files added (on-disk size: 46324.8 KB)
+0020.727 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 1300 files added (on-disk size: 46324.8 KB)
+0020.735 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 1400 files added (on-disk size: 46324.8 KB)
+0020.740 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 1500 files added (on-disk size: 46324.8 KB)
+0020.748 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 1600 files added (on-disk size: 46324.8 KB)
+0020.755 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 1700 files added (on-disk size: 46324.8 KB)
+0020.760 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 1800 files added (on-disk size: 46324.8 KB)
+0020.765 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 1900 files added (on-disk size: 46324.8 KB)
+0020.770 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 2000 files added (on-disk size: 46324.8 KB)
+0020.771 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.9 MB, 3332 files batched, 1001 (2002) added so far); re-opening (prior size: 46324.8 KB)
+0021.388 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: size is now: 66.20 MB
+0021.393 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 2100 files added (on-disk size: 67814.4 KB)
+0021.398 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 2200 files added (on-disk size: 67814.4 KB)
+0021.403 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 2300 files added (on-disk size: 67814.4 KB)
+0021.407 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 2400 files added (on-disk size: 67814.4 KB)
+0021.412 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 2500 files added (on-disk size: 67814.4 KB)
+0021.417 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 2600 files added (on-disk size: 67814.4 KB)
+0021.422 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 2700 files added (on-disk size: 67814.4 KB)
+0021.426 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 2800 files added (on-disk size: 67814.4 KB)
+0021.431 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 2900 files added (on-disk size: 67814.4 KB)
+0021.435 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 3000 files added (on-disk size: 67814.4 KB)
+0021.437 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (35.4 MB, 3332 files batched, 1001 (3003) added so far); re-opening (prior size: 67814.4 KB)
+0022.144 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: size is now: 101.80 MB
+0022.150 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 3100 files added (on-disk size: 104227.5 KB)
+0022.155 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 3200 files added (on-disk size: 104227.5 KB)
+0022.159 (0) Zip: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.tmp: 3300 files added (on-disk size: 104227.5 KB)
+0022.489 (0) Creating zip file manifest (/home3/novus6sk/abdullahotyanga.com/wp-content/updraft/backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.list-temp.tmp)
+0022.498 (0) Successfully created zip file manifest (size: 176078)
+0023.611 (0) Created uploads zip (0) - 113570.1 KB in 3.7 s (30886.9 KB/s) (sha1: af218a9b3be4aa63ca769de323491b52eee3a6d2, sha256: df4f386c6a9a164fcde7ac06de2b6f6280d29f7967fe0f427fa8878fcc766b4a)
+0023.613 (0) Beginning backup of other directories found in the content directory (index: 0)
+0023.613 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0023.614 (0) Looking for candidates to backup in: /home3/novus6sk/abdullahotyanga.com/wp-content
+0023.614 (0) finding files: endurance-page-cache-old: adding to list (1)
+0023.615 (0) finding files: uploads-old-old: adding to list (2)
+0023.616 (0) finding files: plugins: skipping: this is the plugins directory
+0023.616 (0) finding files: languages: adding to list (3)
+0023.617 (0) finding files: endurance-page-cache: adding to list (4)
+0023.617 (0) finding files: .htaccess: adding to list (5)
+0023.617 (0) finding files: upgrade: skipping: excluded by options
+0023.618 (0) finding files: temp-write-test-60b53888c28b27-68138573: adding to list (6)
+0023.618 (0) finding files: temp-write-test-60deded6c38e65-89636169: adding to list (7)
+0023.618 (0) finding files: updraft: skipping: this is the updraft directory
+0023.619 (0) finding files: mu-plugins-old-old: adding to list (8)
+0023.619 (0) finding files: themes-old-old: adding to list (9)
+0023.619 (0) finding files: mu-plugins: adding to list (10)
+0023.620 (0) finding files: fonts: adding to list (11)
+0023.620 (0) finding files: themes-old: adding to list (12)
+0023.622 (0) finding files: plugins-old-old: adding to list (13)
+0023.622 (0) finding files: plugins-old: adding to list (14)
+0023.622 (0) finding files: index.php-old: adding to list (15)
+0023.622 (0) finding files: mu-plugins-old: adding to list (16)
+0023.623 (0) finding files: uploads-old: adding to list (17)
+0023.623 (0) finding files: index.php: adding to list (18)
+0023.623 (0) finding files: logs: adding to list (19)
+0023.623 (0) finding files: uploads: skipping: this is the uploads directory
+0023.624 (0) finding files: index.php-old-old: adding to list (20)
+0023.624 (0) finding files: themes: skipping: this is the themes directory
+0023.674 (0) Total entities for the zip file: 35 directories, 72 files (0 skipped as non-modified), 5.4 MB
+0024.019 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-others.zip.tmp: size is now: 1.40 MB
+0024.022 (0) Creating zip file manifest (/home3/novus6sk/abdullahotyanga.com/wp-content/updraft/backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-others.zip.list-temp.tmp)
+0024.023 (0) Successfully created zip file manifest (size: 3704)
+0024.045 (0) Created others zip (0) - 1457 KB in 0.4 s (3821.8 KB/s) (sha1: 00417b0b3e26f934bc5b1b97c83cf3f0de2cfa8c, sha256: 17224b83c31345d1b0525b20d057795ba088c6e0d6e63dc557281df872726a73)
+0024.048 (0) Saving backup status to database (elements: 8)
+0024.055 (0) Beginning creation of database dump (WordPress DB)
+0024.055 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$whichdb is deprecated (line 1487, wp-content/plugins/updraftplus/backup.php)
+0024.064 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$whichdb_suffix is deprecated (line 1488, wp-content/plugins/updraftplus/backup.php)
+0024.065 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$dbinfo is deprecated (line 1516, wp-content/plugins/updraftplus/backup.php)
+0024.066 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0024.072 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0024.096 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 2578 bytes total)
+0024.097 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0024.138 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$duplicate_tables_exist is deprecated (line 1577, wp-content/plugins/updraftplus/backup.php)
+0024.197 (0) Table wpa7_options: Total expected rows (via COUNT): 719
+0024.379 (0) Table wpa7_options: Rows added in this batch (next record: 146413): 715 (uncompressed bytes in this segment=4721762) in 0.22 seconds
+0024.383 (0) Table wpa7_options: finishing file(s) (2, 773.9 KB)
+0024.386 (0) Table wpa7_users: Total expected rows (via COUNT): 1
+0024.387 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.388 (0) Table wpa7_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1383) in 0.00 seconds
+0024.390 (0) Table wpa7_users: finishing file(s) (2, 0.6 KB)
+0024.392 (0) Table wpa7_usermeta: Total expected rows (via COUNT): 65
+0024.393 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.394 (0) Table wpa7_usermeta: Rows added in this batch (next record: 72): 65 (uncompressed bytes in this segment=7149) in 0.00 seconds
+0024.396 (0) Table wpa7_usermeta: finishing file(s) (2, 2.7 KB)
+0024.399 (0) Table wpa7_actionscheduler_actions: Total expected rows (via COUNT): 7
+0024.399 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.400 (0) Table wpa7_actionscheduler_actions: Rows added in this batch (next record: 84): 7 (uncompressed bytes in this segment=3867) in 0.00 seconds
+0024.403 (0) Table wpa7_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+0024.405 (0) Table wpa7_actionscheduler_claims: Total expected rows (via COUNT): 0
+0024.406 (0) Table wpa7_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=644) in 0.00 seconds
+0024.408 (0) Table wpa7_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0024.410 (0) Table wpa7_actionscheduler_groups: Total expected rows (via COUNT): 3
+0024.410 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.411 (0) Table wpa7_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=750) in 0.00 seconds
+0024.413 (0) Table wpa7_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0024.415 (0) Table wpa7_actionscheduler_logs: Total expected rows (via COUNT): 21
+0024.415 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.416 (0) Table wpa7_actionscheduler_logs: Rows added in this batch (next record: 252): 21 (uncompressed bytes in this segment=2691) in 0.00 seconds
+0024.418 (0) Table wpa7_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0024.423 (0) Table wpa7_commentmeta: Total expected rows (via COUNT): 0
+0024.424 (0) Table wpa7_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0024.426 (0) Table wpa7_commentmeta: finishing file(s) (2, 0.4 KB)
+0024.429 (0) Table wpa7_comments: Total expected rows (via COUNT): 0
+0024.430 (0) Table wpa7_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1728) in 0.00 seconds
+0024.432 (0) Table wpa7_comments: finishing file(s) (2, 0.5 KB)
+0024.436 (0) Table wpa7_links: Total expected rows (via COUNT): 0
+0024.437 (0) Table wpa7_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1282) in 0.00 seconds
+0024.439 (0) Table wpa7_links: finishing file(s) (2, 0.5 KB)
+0024.470 (0) Table wpa7_postmeta: Total expected rows (approximate): 6303
+0024.516 (0) Table wpa7_postmeta: Rows added in this batch (next record: 30410): 6220 (uncompressed bytes in this segment=1238508) in 0.08 seconds
+0024.519 (0) Table wpa7_postmeta: finishing file(s) (2, 93.7 KB)
+0024.584 (0) Table wpa7_posts: Total expected rows (via COUNT): 839
+0024.649 (0) Table wpa7_posts: Rows added in this batch (next record: 13625): 839 (uncompressed bytes in this segment=3076503) in 0.13 seconds
+0024.652 (0) Table wpa7_posts: finishing file(s) (2, 200.3 KB)
+0024.654 (0) Table wpa7_term_relationships: Total expected rows (approximate): 88
+0024.655 (0) Table wpa7_term_relationships: Rows added in this batch (next record: 100000): 90 (uncompressed bytes in this segment=2168) in 0.00 seconds
+0024.657 (0) Table wpa7_term_relationships: finishing file(s) (2, 0.7 KB)
+0024.659 (0) Table wpa7_term_taxonomy: Total expected rows (via COUNT): 48
+0024.660 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.661 (0) Table wpa7_term_taxonomy: Rows added in this batch (next record: 175): 48 (uncompressed bytes in this segment=2742) in 0.00 seconds
+0024.663 (0) Table wpa7_term_taxonomy: finishing file(s) (2, 0.8 KB)
+0024.667 (0) Table wpa7_termmeta: Total expected rows (via COUNT): 67
+0024.668 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.669 (0) Table wpa7_termmeta: Rows added in this batch (next record: 344): 67 (uncompressed bytes in this segment=4864) in 0.00 seconds
+0024.672 (0) Table wpa7_termmeta: finishing file(s) (2, 1 KB)
+0024.674 (0) Table wpa7_terms: Total expected rows (via COUNT): 48
+0024.675 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.676 (0) Table wpa7_terms: Rows added in this batch (next record: 175): 48 (uncompressed bytes in this segment=2449) in 0.00 seconds
+0024.678 (0) Table wpa7_terms: finishing file(s) (2, 1 KB)
+0024.680 (0) Table wpa7_wc_category_lookup: Total expected rows (approximate): 17
+0024.682 (0) Table wpa7_wc_category_lookup: Rows added in this batch (next record: 1000): 17 (uncompressed bytes in this segment=792) in 0.00 seconds
+0024.684 (0) Table wpa7_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0024.688 (0) Table wpa7_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0024.688 (0) Table wpa7_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1353) in 0.00 seconds
+0024.690 (0) Table wpa7_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0024.692 (0) Table wpa7_wc_reserved_stock: Total expected rows (approximate): 0
+0024.693 (0) Table wpa7_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=673) in 0.00 seconds
+0024.695 (0) Table wpa7_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0024.697 (0) Table wpa7_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0024.698 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.699 (0) Table wpa7_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=814) in 0.00 seconds
+0024.700 (0) Table wpa7_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0024.704 (0) Table wpa7_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0024.705 (0) Table wpa7_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=771) in 0.00 seconds
+0024.707 (0) Table wpa7_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0024.711 (0) Table wpa7_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0024.712 (0) Table wpa7_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0024.714 (0) Table wpa7_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0024.717 (0) Table wpa7_addonlibrary_addons: Total expected rows (via COUNT): 1
+0024.718 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.722 (0) Table wpa7_addonlibrary_addons: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=68623) in 0.01 seconds
+0024.724 (0) Table wpa7_addonlibrary_addons: finishing file(s) (2, 5.5 KB)
+0024.727 (0) Table wpa7_addonlibrary_categories: Total expected rows (via COUNT): 1
+0024.728 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.728 (0) Table wpa7_addonlibrary_categories: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=929) in 0.00 seconds
+0024.730 (0) Table wpa7_addonlibrary_categories: finishing file(s) (2, 0.4 KB)
+0024.732 (0) Table wpa7_cartflows_ca_cart_abandonment: Total expected rows (approximate): 0
+0024.734 (0) Table wpa7_cartflows_ca_cart_abandonment: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=2487) in 0.00 seconds
+0024.736 (0) Table wpa7_cartflows_ca_cart_abandonment: finishing file(s) (2, 1 KB)
+0024.740 (0) Table wpa7_cartflows_ca_email_history: Total expected rows (via COUNT): 0
+0024.740 (0) Table wpa7_cartflows_ca_email_history: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1166) in 0.00 seconds
+0024.742 (0) Table wpa7_cartflows_ca_email_history: finishing file(s) (2, 0.5 KB)
+0024.746 (0) Table wpa7_cartflows_ca_email_templates: Total expected rows (via COUNT): 3
+0024.746 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.748 (0) Table wpa7_cartflows_ca_email_templates: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=2734) in 0.00 seconds
+0024.750 (0) Table wpa7_cartflows_ca_email_templates: finishing file(s) (2, 1.2 KB)
+0024.753 (0) Table wpa7_cartflows_ca_email_templates_meta: Total expected rows (via COUNT): 15
+0024.754 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.754 (0) Table wpa7_cartflows_ca_email_templates_meta: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1569) in 0.00 seconds
+0024.757 (0) Table wpa7_cartflows_ca_email_templates_meta: finishing file(s) (2, 0.6 KB)
+0024.759 (0) Table wpa7_cas_plugin: Total expected rows (via COUNT): 3
+0024.760 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.760 (0) Table wpa7_cas_plugin: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1300) in 0.00 seconds
+0024.764 (0) Table wpa7_cas_plugin: finishing file(s) (2, 0.5 KB)
+0024.767 (0) Table wpa7_e_events: Total expected rows (via COUNT): 1
+0024.768 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.769 (0) Table wpa7_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=804) in 0.00 seconds
+0024.771 (0) Table wpa7_e_events: finishing file(s) (2, 0.5 KB)
+0024.777 (0) Table wpa7_learnpress_order_itemmeta: Total expected rows (via COUNT): 0
+0024.779 (0) Table wpa7_learnpress_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=928) in 0.01 seconds
+0024.781 (0) Table wpa7_learnpress_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0024.785 (0) Table wpa7_learnpress_order_items: Total expected rows (via COUNT): 0
+0024.786 (0) Table wpa7_learnpress_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0024.789 (0) Table wpa7_learnpress_order_items: finishing file(s) (2, 0.4 KB)
+0024.795 (0) Table wpa7_learnpress_question_answermeta: Total expected rows (via COUNT): 0
+0024.796 (0) Table wpa7_learnpress_question_answermeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=822) in 0.01 seconds
+0024.799 (0) Table wpa7_learnpress_question_answermeta: finishing file(s) (2, 0.4 KB)
+0024.803 (0) Table wpa7_learnpress_question_answers: Total expected rows (via COUNT): 0
+0024.804 (0) Table wpa7_learnpress_question_answers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=878) in 0.00 seconds
+0024.806 (0) Table wpa7_learnpress_question_answers: finishing file(s) (2, 0.4 KB)
+0024.810 (0) Table wpa7_learnpress_quiz_questions: Total expected rows (via COUNT): 0
+0024.811 (0) Table wpa7_learnpress_quiz_questions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=779) in 0.00 seconds
+0024.813 (0) Table wpa7_learnpress_quiz_questions: finishing file(s) (2, 0.4 KB)
+0024.816 (0) Table wpa7_learnpress_review_logs: Total expected rows (via COUNT): 0
+0024.818 (0) Table wpa7_learnpress_review_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=919) in 0.00 seconds
+0024.820 (0) Table wpa7_learnpress_review_logs: finishing file(s) (2, 0.4 KB)
+0024.827 (0) Table wpa7_learnpress_section_items: Total expected rows (via COUNT): 0
+0024.830 (0) Table wpa7_learnpress_section_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=814) in 0.01 seconds
+0024.838 (0) Table wpa7_learnpress_section_items: finishing file(s) (2, 0.4 KB)
+0024.845 (0) Table wpa7_learnpress_sections: Total expected rows (via COUNT): 0
+0024.845 (0) Table wpa7_learnpress_sections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=813) in 0.00 seconds
+0024.848 (0) Table wpa7_learnpress_sections: finishing file(s) (2, 0.4 KB)
+0024.851 (0) Table wpa7_learnpress_sessions: Total expected rows (approximate): 0
+0024.853 (0) Table wpa7_learnpress_sessions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=712) in 0.00 seconds
+0024.855 (0) Table wpa7_learnpress_sessions: finishing file(s) (2, 0.4 KB)
+0024.860 (0) Table wpa7_learnpress_user_item_results: Total expected rows (via COUNT): 0
+0024.861 (0) Table wpa7_learnpress_user_item_results: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=664) in 0.00 seconds
+0024.863 (0) Table wpa7_learnpress_user_item_results: finishing file(s) (2, 0.4 KB)
+0024.867 (0) Table wpa7_learnpress_user_itemmeta: Total expected rows (via COUNT): 0
+0024.868 (0) Table wpa7_learnpress_user_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=907) in 0.00 seconds
+0024.871 (0) Table wpa7_learnpress_user_itemmeta: finishing file(s) (2, 0.4 KB)
+0024.874 (0) Table wpa7_learnpress_user_items: Total expected rows (via COUNT): 0
+0024.875 (0) Table wpa7_learnpress_user_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1332) in 0.00 seconds
+0024.877 (0) Table wpa7_learnpress_user_items: finishing file(s) (2, 0.5 KB)
+0024.884 (0) Table wpa7_newsletter: Total expected rows (via COUNT): 4
+0024.884 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.886 (0) Table wpa7_newsletter: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=7050) in 0.00 seconds
+0024.888 (0) Table wpa7_newsletter: finishing file(s) (2, 1.1 KB)
+0024.892 (0) Table wpa7_newsletter_emails: Total expected rows (via COUNT): 0
+0024.893 (0) Table wpa7_newsletter_emails: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1969) in 0.00 seconds
+0024.895 (0) Table wpa7_newsletter_emails: finishing file(s) (2, 0.6 KB)
+0024.897 (0) Table wpa7_newsletter_sent: Total expected rows (approximate): 0
+0024.898 (0) Table wpa7_newsletter_sent: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=870) in 0.00 seconds
+0024.900 (0) Table wpa7_newsletter_sent: finishing file(s) (2, 0.4 KB)
+0024.905 (0) Table wpa7_newsletter_stats: Total expected rows (via COUNT): 0
+0024.905 (0) Table wpa7_newsletter_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=817) in 0.00 seconds
+0024.907 (0) Table wpa7_newsletter_stats: finishing file(s) (2, 0.4 KB)
+0024.912 (0) Table wpa7_newsletter_user_logs: Total expected rows (via COUNT): 3
+0024.912 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.913 (0) Table wpa7_newsletter_user_logs: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1007) in 0.00 seconds
+0024.916 (0) Table wpa7_newsletter_user_logs: finishing file(s) (2, 0.5 KB)
+0024.920 (0) Table wpa7_nextend2_image_storage: Total expected rows (via COUNT): 6
+0024.921 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.921 (0) Table wpa7_nextend2_image_storage: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=2508) in 0.00 seconds
+0024.923 (0) Table wpa7_nextend2_image_storage: finishing file(s) (2, 0.8 KB)
+0024.927 (0) Table wpa7_nextend2_section_storage: Total expected rows (via COUNT): 2
+0024.928 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.928 (0) Table wpa7_nextend2_section_storage: Rows added in this batch (next record: 10003): 2 (uncompressed bytes in this segment=1312) in 0.00 seconds
+0024.930 (0) Table wpa7_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+0024.934 (0) Table wpa7_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0024.935 (0) Table wpa7_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=730) in 0.00 seconds
+0024.937 (0) Table wpa7_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0024.941 (0) Table wpa7_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 3
+0024.942 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.945 (0) Table wpa7_nextend2_smartslider3_sliders: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=42202) in 0.01 seconds
+0024.947 (0) Table wpa7_nextend2_smartslider3_sliders: finishing file(s) (2, 4.9 KB)
+0024.950 (0) Table wpa7_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 2
+0024.952 (0) Table wpa7_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=758) in 0.00 seconds
+0024.954 (0) Table wpa7_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0024.960 (0) Table wpa7_nextend2_smartslider3_slides: Total expected rows (via COUNT): 5
+0024.961 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.962 (0) Table wpa7_nextend2_smartslider3_slides: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=46074) in 0.01 seconds
+0024.965 (0) Table wpa7_nextend2_smartslider3_slides: finishing file(s) (2, 3.7 KB)
+0024.970 (0) Table wpa7_nfd_data_event_queue: Total expected rows (via COUNT): 1
+0024.970 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.970 (0) Table wpa7_nfd_data_event_queue: Rows added in this batch (next record: 13): 1 (uncompressed bytes in this segment=2583) in 0.00 seconds
+0024.973 (0) Table wpa7_nfd_data_event_queue: finishing file(s) (2, 1.2 KB)
+0024.976 (0) Table wpa7_pmpro_discount_codes: Total expected rows (via COUNT): 0
+0024.978 (0) Table wpa7_pmpro_discount_codes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=706) in 0.00 seconds
+0024.980 (0) Table wpa7_pmpro_discount_codes: finishing file(s) (2, 0.4 KB)
+0024.983 (0) Table wpa7_pmpro_discount_codes_levels: Total expected rows (approximate): 0
+0024.985 (0) Table wpa7_pmpro_discount_codes_levels: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1232) in 0.00 seconds
+0024.988 (0) Table wpa7_pmpro_discount_codes_levels: finishing file(s) (2, 0.5 KB)
+0024.992 (0) Table wpa7_pmpro_discount_codes_uses: Total expected rows (via COUNT): 0
+0024.993 (0) Table wpa7_pmpro_discount_codes_uses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=789) in 0.00 seconds
+0024.996 (0) Table wpa7_pmpro_discount_codes_uses: finishing file(s) (2, 0.4 KB)
+0025.001 (0) Table wpa7_pmpro_membership_levelmeta: Total expected rows (via COUNT): 0
+0025.002 (0) Table wpa7_pmpro_membership_levelmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=796) in 0.00 seconds
+0025.006 (0) Table wpa7_pmpro_membership_levelmeta: finishing file(s) (2, 0.4 KB)
+0025.009 (0) Table wpa7_pmpro_membership_levels: Total expected rows (via COUNT): 0
+0025.010 (0) Table wpa7_pmpro_membership_levels: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1458) in 0.00 seconds
+0025.014 (0) Table wpa7_pmpro_membership_levels: finishing file(s) (2, 0.6 KB)
+0025.019 (0) Table wpa7_pmpro_membership_ordermeta: Total expected rows (via COUNT): 0
+0025.020 (0) Table wpa7_pmpro_membership_ordermeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=796) in 0.00 seconds
+0025.023 (0) Table wpa7_pmpro_membership_ordermeta: finishing file(s) (2, 0.4 KB)
+0025.028 (0) Table wpa7_pmpro_membership_orders: Total expected rows (via COUNT): 0
+0025.030 (0) Table wpa7_pmpro_membership_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3336) in 0.00 seconds
+0025.032 (0) Table wpa7_pmpro_membership_orders: finishing file(s) (2, 0.8 KB)
+0025.035 (0) Table wpa7_pmpro_memberships_categories: Total expected rows (approximate): 0
+0025.036 (0) Table wpa7_pmpro_memberships_categories: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=770) in 0.00 seconds
+0025.038 (0) Table wpa7_pmpro_memberships_categories: finishing file(s) (2, 0.4 KB)
+0025.041 (0) Table wpa7_pmpro_memberships_pages: Total expected rows (approximate): 0
+0025.041 (0) Table wpa7_pmpro_memberships_pages: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=724) in 0.00 seconds
+0025.043 (0) Table wpa7_pmpro_memberships_pages: finishing file(s) (2, 0.4 KB)
+0025.046 (0) Table wpa7_pmpro_memberships_users: Total expected rows (via COUNT): 0
+0025.046 (0) Table wpa7_pmpro_memberships_users: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1384) in 0.00 seconds
+0025.049 (0) Table wpa7_pmpro_memberships_users: finishing file(s) (2, 0.6 KB)
+0025.057 (0) Table wpa7_revslider_css: Total expected rows (via COUNT): 109
+0025.057 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.061 (0) Table wpa7_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91241) in 0.01 seconds
+0025.064 (0) Table wpa7_revslider_css: finishing file(s) (2, 4.9 KB)
+0025.069 (0) Table wpa7_revslider_css_bkp: Total expected rows (via COUNT): 47
+0025.070 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.071 (0) Table wpa7_revslider_css_bkp: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=15570) in 0.00 seconds
+0025.074 (0) Table wpa7_revslider_css_bkp: finishing file(s) (2, 1.8 KB)
+0025.077 (0) Table wpa7_revslider_layer_animations: Total expected rows (via COUNT): 0
+0025.078 (0) Table wpa7_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+0025.079 (0) Table wpa7_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0025.083 (0) Table wpa7_revslider_layer_animations_bkp: Total expected rows (via COUNT): 0
+0025.083 (0) Table wpa7_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0025.085 (0) Table wpa7_revslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+0025.088 (0) Table wpa7_revslider_navigations: Total expected rows (via COUNT): 1
+0025.088 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.089 (0) Table wpa7_revslider_navigations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2331) in 0.00 seconds
+0025.092 (0) Table wpa7_revslider_navigations: finishing file(s) (2, 0.9 KB)
+0025.096 (0) Table wpa7_revslider_navigations_bkp: Total expected rows (via COUNT): 0
+0025.096 (0) Table wpa7_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=839) in 0.00 seconds
+0025.099 (0) Table wpa7_revslider_navigations_bkp: finishing file(s) (2, 0.4 KB)
+0025.102 (0) Table wpa7_revslider_sliders: Total expected rows (via COUNT): 3
+0025.103 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.104 (0) Table wpa7_revslider_sliders: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=28313) in 0.00 seconds
+0025.107 (0) Table wpa7_revslider_sliders: finishing file(s) (2, 4.3 KB)
+0025.111 (0) Table wpa7_revslider_sliders_bkp: Total expected rows (via COUNT): 0
+0025.112 (0) Table wpa7_revslider_sliders_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=783) in 0.00 seconds
+0025.114 (0) Table wpa7_revslider_sliders_bkp: finishing file(s) (2, 0.4 KB)
+0025.119 (0) Table wpa7_revslider_slides: Total expected rows (via COUNT): 8
+0025.119 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.121 (0) Table wpa7_revslider_slides: Rows added in this batch (next record: 11): 8 (uncompressed bytes in this segment=45186) in 0.01 seconds
+0025.125 (0) Table wpa7_revslider_slides: finishing file(s) (2, 4.4 KB)
+0025.130 (0) Table wpa7_revslider_slides_bkp: Total expected rows (via COUNT): 0
+0025.132 (0) Table wpa7_revslider_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.00 seconds
+0025.134 (0) Table wpa7_revslider_slides_bkp: finishing file(s) (2, 0.4 KB)
+0025.138 (0) Table wpa7_revslider_static_slides: Total expected rows (via COUNT): 3
+0025.138 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.139 (0) Table wpa7_revslider_static_slides: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=4013) in 0.00 seconds
+0025.142 (0) Table wpa7_revslider_static_slides: finishing file(s) (2, 1 KB)
+0025.147 (0) Table wpa7_revslider_static_slides_bkp: Total expected rows (via COUNT): 0
+0025.148 (0) Table wpa7_revslider_static_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=750) in 0.00 seconds
+0025.151 (0) Table wpa7_revslider_static_slides_bkp: finishing file(s) (2, 0.4 KB)
+0025.155 (0) Table wpa7_wc_admin_note_actions: Total expected rows (via COUNT): 196
+0025.156 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.160 (0) Table wpa7_wc_admin_note_actions: Rows added in this batch (next record: 23142): 196 (uncompressed bytes in this segment=39291) in 0.01 seconds
+0025.163 (0) Table wpa7_wc_admin_note_actions: finishing file(s) (2, 6.3 KB)
+0025.167 (0) Table wpa7_wc_admin_notes: Total expected rows (via COUNT): 161
+0025.167 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.171 (0) Table wpa7_wc_admin_notes: Rows added in this batch (next record: 161): 161 (uncompressed bytes in this segment=75345) in 0.01 seconds
+0025.174 (0) Table wpa7_wc_admin_notes: finishing file(s) (2, 16.1 KB)
+0025.178 (0) Table wpa7_wc_customer_lookup: Total expected rows (via COUNT): 0
+0025.179 (0) Table wpa7_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1242) in 0.00 seconds
+0025.181 (0) Table wpa7_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0025.184 (0) Table wpa7_wc_download_log: Total expected rows (via COUNT): 0
+0025.185 (0) Table wpa7_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=934) in 0.00 seconds
+0025.187 (0) Table wpa7_wc_download_log: finishing file(s) (2, 0.5 KB)
+0025.189 (0) Table wpa7_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0025.190 (0) Table wpa7_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=725) in 0.00 seconds
+0025.192 (0) Table wpa7_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0025.194 (0) Table wpa7_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0025.195 (0) Table wpa7_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1235) in 0.00 seconds
+0025.197 (0) Table wpa7_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0025.199 (0) Table wpa7_wc_order_stats: Total expected rows (via COUNT): 0
+0025.200 (0) Table wpa7_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1126) in 0.00 seconds
+0025.202 (0) Table wpa7_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0025.204 (0) Table wpa7_wc_order_tax_lookup: Total expected rows (approximate): 0
+0025.205 (0) Table wpa7_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=807) in 0.00 seconds
+0025.207 (0) Table wpa7_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0025.210 (0) Table wpa7_wc_webhooks: Total expected rows (via COUNT): 0
+0025.211 (0) Table wpa7_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1218) in 0.00 seconds
+0025.213 (0) Table wpa7_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0025.217 (0) Table wpa7_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0025.217 (0) Table wpa7_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1030) in 0.00 seconds
+0025.220 (0) Table wpa7_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0025.222 (0) Table wpa7_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0025.223 (0) Table wpa7_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=953) in 0.00 seconds
+0025.225 (0) Table wpa7_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0025.228 (0) Table wpa7_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0025.229 (0) Table wpa7_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1530) in 0.00 seconds
+0025.231 (0) Table wpa7_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0025.235 (0) Table wpa7_woocommerce_log: Total expected rows (via COUNT): 0
+0025.236 (0) Table wpa7_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.00 seconds
+0025.238 (0) Table wpa7_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0025.240 (0) Table wpa7_woocommerce_order_items: Total expected rows (via COUNT): 0
+0025.241 (0) Table wpa7_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0025.243 (0) Table wpa7_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0025.247 (0) Table wpa7_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0025.248 (0) Table wpa7_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=837) in 0.00 seconds
+0025.250 (0) Table wpa7_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0025.253 (0) Table wpa7_woocommerce_sessions: Total expected rows (via COUNT): 5
+0025.253 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.254 (0) Table wpa7_woocommerce_sessions: Rows added in this batch (next record: 13): 5 (uncompressed bytes in this segment=7776) in 0.00 seconds
+0025.257 (0) Table wpa7_woocommerce_sessions: finishing file(s) (2, 1.1 KB)
+0025.260 (0) Table wpa7_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0025.261 (0) Table wpa7_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=874) in 0.00 seconds
+0025.263 (0) Table wpa7_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0025.266 (0) Table wpa7_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0025.266 (0) Table wpa7_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=779) in 0.00 seconds
+0025.268 (0) Table wpa7_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0025.271 (0) Table wpa7_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0025.272 (0) Table wpa7_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.00 seconds
+0025.274 (0) Table wpa7_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0025.277 (0) Table wpa7_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0025.277 (0) Table wpa7_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.00 seconds
+0025.279 (0) Table wpa7_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0025.283 (0) Table wpa7_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0025.284 (0) Table wpa7_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1289) in 0.00 seconds
+0025.286 (0) Table wpa7_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0025.290 (0) Table wpa7_wpforms_logs: Total expected rows (via COUNT): 0
+0025.291 (0) Table wpa7_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=764) in 0.00 seconds
+0025.293 (0) Table wpa7_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0025.298 (0) Table wpa7_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0025.298 (0) Table wpa7_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.00 seconds
+0025.301 (0) Table wpa7_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0025.305 (0) Table wpa7_wpforms_payments: Total expected rows (via COUNT): 0
+0025.306 (0) Table wpa7_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1982) in 0.00 seconds
+0025.308 (0) Table wpa7_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0025.313 (0) Table wpa7_wpforms_tasks_meta: Total expected rows (via COUNT): 83
+0025.313 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.315 (0) Table wpa7_wpforms_tasks_meta: Rows added in this batch (next record: 83): 83 (uncompressed bytes in this segment=6981) in 0.00 seconds
+0025.317 (0) Table wpa7_wpforms_tasks_meta: finishing file(s) (2, 1.4 KB)
+0025.326 (0) Table wpa7_yoast_indexable: Total expected rows (via COUNT): 790
+0025.345 (0) Table wpa7_yoast_indexable: Rows added in this batch (next record: 796): 790 (uncompressed bytes in this segment=292326) in 0.03 seconds
+0025.348 (0) Table wpa7_yoast_indexable: finishing file(s) (2, 18.7 KB)
+0025.350 (0) Table wpa7_yoast_indexable_hierarchy: Total expected rows (approximate): 532
+0025.353 (0) Table wpa7_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 532 (uncompressed bytes in this segment=9782) in 0.00 seconds
+0025.356 (0) Table wpa7_yoast_indexable_hierarchy: finishing file(s) (2, 1.6 KB)
+0025.359 (0) Table wpa7_yoast_migrations: Total expected rows (via COUNT): 21
+0025.359 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.360 (0) Table wpa7_yoast_migrations: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=1200) in 0.00 seconds
+0025.362 (0) Table wpa7_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0025.365 (0) Table wpa7_yoast_primary_term: Total expected rows (via COUNT): 1
+0025.366 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.367 (0) Table wpa7_yoast_primary_term: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1003) in 0.00 seconds
+0025.369 (0) Table wpa7_yoast_primary_term: finishing file(s) (2, 0.5 KB)
+0025.373 (0) Table wpa7_yoast_seo_links: Total expected rows (via COUNT): 796
+0025.383 (0) Table wpa7_yoast_seo_links: Rows added in this batch (next record: 2376): 796 (uncompressed bytes in this segment=99051) in 0.01 seconds
+0025.385 (0) Table wpa7_yoast_seo_links: finishing file(s) (2, 10.5 KB)
+0025.386 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home3/novus6sk/abdullahotyanga.com/wp-content/updraft/backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db.gz (line 1836, wp-content/plugins/updraftplus/backup.php)
+0025.387 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_options.table.tmpr146414.gz (1/106/fopen): adding to final database dump
+0025.395 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_options.table.gz (2/106/fopen): adding to final database dump
+0025.396 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_users.table.tmpr2.gz (3/106/fopen): adding to final database dump
+0025.396 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_users.table.gz (4/106/fopen): adding to final database dump
+0025.396 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_usermeta.table.tmpr73.gz (5/106/fopen): adding to final database dump
+0025.397 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_usermeta.table.gz (6/106/fopen): adding to final database dump
+0025.397 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_actionscheduler_actions.table.tmpr85.gz (7/106/fopen): adding to final database dump
+0025.397 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_actionscheduler_actions.table.gz (8/106/fopen): adding to final database dump
+0025.398 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_actionscheduler_claims.table.tmpr0.gz (9/106/fopen): adding to final database dump
+0025.398 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_actionscheduler_claims.table.gz (10/106/fopen): adding to final database dump
+0025.398 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_actionscheduler_groups.table.tmpr4.gz (11/106/fopen): adding to final database dump
+0025.398 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_actionscheduler_groups.table.gz (12/106/fopen): adding to final database dump
+0025.399 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_actionscheduler_logs.table.tmpr253.gz (13/106/fopen): adding to final database dump
+0025.399 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_actionscheduler_logs.table.gz (14/106/fopen): adding to final database dump
+0025.399 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_commentmeta.table.tmpr0.gz (15/106/fopen): adding to final database dump
+0025.400 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_commentmeta.table.gz (16/106/fopen): adding to final database dump
+0025.400 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_comments.table.tmpr0.gz (17/106/fopen): adding to final database dump
+0025.400 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_comments.table.gz (18/106/fopen): adding to final database dump
+0025.400 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_links.table.tmpr0.gz (19/106/fopen): adding to final database dump
+0025.401 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_links.table.gz (20/106/fopen): adding to final database dump
+0025.401 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_postmeta.table.tmpr30411.gz (21/106/fopen): adding to final database dump
+0025.402 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_postmeta.table.gz (22/106/fopen): adding to final database dump
+0025.402 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_posts.table.tmpr13626.gz (23/106/fopen): adding to final database dump
+0025.405 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_posts.table.gz (24/106/fopen): adding to final database dump
+0025.405 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_term_relationships.table.tmpr100001.gz (25/106/fopen): adding to final database dump
+0025.406 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_term_relationships.table.gz (26/106/fopen): adding to final database dump
+0025.406 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_term_taxonomy.table.tmpr176.gz (27/106/fopen): adding to final database dump
+0025.406 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_term_taxonomy.table.gz (28/106/fopen): adding to final database dump
+0025.406 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_termmeta.table.tmpr345.gz (29/106/fopen): adding to final database dump
+0025.407 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_termmeta.table.gz (30/106/fopen): adding to final database dump
+0025.407 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_terms.table.tmpr176.gz (31/106/fopen): adding to final database dump
+0025.407 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_terms.table.gz (32/106/fopen): adding to final database dump
+0025.408 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_category_lookup.table.tmpr1001.gz (33/106/fopen): adding to final database dump
+0025.408 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_category_lookup.table.gz (34/106/fopen): adding to final database dump
+0025.408 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_product_meta_lookup.table.tmpr0.gz (35/106/fopen): adding to final database dump
+0025.408 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_product_meta_lookup.table.gz (36/106/fopen): adding to final database dump
+0025.409 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_reserved_stock.table.tmpr1.gz (37/106/fopen): adding to final database dump
+0025.409 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_reserved_stock.table.gz (38/106/fopen): adding to final database dump
+0025.409 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_tax_rate_classes.table.tmpr3.gz (39/106/fopen): adding to final database dump
+0025.409 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_tax_rate_classes.table.gz (40/106/fopen): adding to final database dump
+0025.410 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_order_itemmeta.table.tmpr0.gz (41/106/fopen): adding to final database dump
+0025.410 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_order_itemmeta.table.gz (42/106/fopen): adding to final database dump
+0025.410 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/106/fopen): adding to final database dump
+0025.410 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_payment_tokenmeta.table.gz (44/106/fopen): adding to final database dump
+0025.411 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_addonlibrary_addons.table.tmpr2.gz (45/106/fopen): adding to final database dump
+0025.411 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_addonlibrary_addons.table.gz (46/106/fopen): adding to final database dump
+0025.411 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_addonlibrary_categories.table.tmpr2.gz (47/106/fopen): adding to final database dump
+0025.411 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_addonlibrary_categories.table.gz (48/106/fopen): adding to final database dump
+0025.412 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_cartflows_ca_cart_abandonment.table.tmpr1001.gz (49/106/fopen): adding to final database dump
+0025.412 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_cartflows_ca_cart_abandonment.table.gz (50/106/fopen): adding to final database dump
+0025.412 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_cartflows_ca_email_history.table.tmpr0.gz (51/106/fopen): adding to final database dump
+0025.412 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_cartflows_ca_email_history.table.gz (52/106/fopen): adding to final database dump
+0025.413 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_cartflows_ca_email_templates.table.tmpr4.gz (53/106/fopen): adding to final database dump
+0025.413 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_cartflows_ca_email_templates.table.gz (54/106/fopen): adding to final database dump
+0025.413 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_cartflows_ca_email_templates_meta.table.tmpr16.gz (55/106/fopen): adding to final database dump
+0025.414 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_cartflows_ca_email_templates_meta.table.gz (56/106/fopen): adding to final database dump
+0025.414 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_cas_plugin.table.tmpr4.gz (57/106/fopen): adding to final database dump
+0025.414 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_cas_plugin.table.gz (58/106/fopen): adding to final database dump
+0025.415 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_e_events.table.tmpr2.gz (59/106/fopen): adding to final database dump
+0025.415 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_e_events.table.gz (60/106/fopen): adding to final database dump
+0025.415 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_order_itemmeta.table.tmpr0.gz (61/106/fopen): adding to final database dump
+0025.416 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_order_itemmeta.table.gz (62/106/fopen): adding to final database dump
+0025.416 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_order_items.table.tmpr0.gz (63/106/fopen): adding to final database dump
+0025.417 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_order_items.table.gz (64/106/fopen): adding to final database dump
+0025.417 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_question_answermeta.table.tmpr0.gz (65/106/fopen): adding to final database dump
+0025.417 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_question_answermeta.table.gz (66/106/fopen): adding to final database dump
+0025.418 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_question_answers.table.tmpr0.gz (67/106/fopen): adding to final database dump
+0025.418 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_question_answers.table.gz (68/106/fopen): adding to final database dump
+0025.418 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_quiz_questions.table.tmpr0.gz (69/106/fopen): adding to final database dump
+0025.419 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_quiz_questions.table.gz (70/106/fopen): adding to final database dump
+0025.419 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_review_logs.table.tmpr0.gz (71/106/fopen): adding to final database dump
+0025.420 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_review_logs.table.gz (72/106/fopen): adding to final database dump
+0025.420 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_section_items.table.tmpr0.gz (73/106/fopen): adding to final database dump
+0025.421 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_section_items.table.gz (74/106/fopen): adding to final database dump
+0025.421 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_sections.table.tmpr0.gz (75/106/fopen): adding to final database dump
+0025.421 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_sections.table.gz (76/106/fopen): adding to final database dump
+0025.422 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_sessions.table.tmpr1.gz (77/106/fopen): adding to final database dump
+0025.422 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_sessions.table.gz (78/106/fopen): adding to final database dump
+0025.422 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_user_item_results.table.tmpr0.gz (79/106/fopen): adding to final database dump
+0025.422 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_user_item_results.table.gz (80/106/fopen): adding to final database dump
+0025.423 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_user_itemmeta.table.tmpr0.gz (81/106/fopen): adding to final database dump
+0025.423 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_user_itemmeta.table.gz (82/106/fopen): adding to final database dump
+0025.423 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_user_items.table.tmpr0.gz (83/106/fopen): adding to final database dump
+0025.423 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_learnpress_user_items.table.gz (84/106/fopen): adding to final database dump
+0025.424 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_newsletter.table.tmpr5.gz (85/106/fopen): adding to final database dump
+0025.424 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_newsletter.table.gz (86/106/fopen): adding to final database dump
+0025.424 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_newsletter_emails.table.tmpr0.gz (87/106/fopen): adding to final database dump
+0025.424 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_newsletter_emails.table.gz (88/106/fopen): adding to final database dump
+0025.425 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_newsletter_sent.table.tmpr1.gz (89/106/fopen): adding to final database dump
+0025.425 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_newsletter_sent.table.gz (90/106/fopen): adding to final database dump
+0025.425 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_newsletter_stats.table.tmpr0.gz (91/106/fopen): adding to final database dump
+0025.425 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_newsletter_stats.table.gz (92/106/fopen): adding to final database dump
+0025.426 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_newsletter_user_logs.table.tmpr4.gz (93/106/fopen): adding to final database dump
+0025.426 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_newsletter_user_logs.table.gz (94/106/fopen): adding to final database dump
+0025.426 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_image_storage.table.tmpr7.gz (95/106/fopen): adding to final database dump
+0025.426 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_image_storage.table.gz (96/106/fopen): adding to final database dump
+0025.427 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_section_storage.table.tmpr10004.gz (97/106/fopen): adding to final database dump
+0025.427 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_section_storage.table.gz (98/106/fopen): adding to final database dump
+0025.427 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_smartslider3_generators.table.tmpr0.gz (99/106/fopen): adding to final database dump
+0025.428 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_smartslider3_generators.table.gz (100/106/fopen): adding to final database dump
+0025.428 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_smartslider3_sliders.table.tmpr4.gz (101/106/fopen): adding to final database dump
+0025.429 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_smartslider3_sliders.table.gz (102/106/fopen): adding to final database dump
+0025.429 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (103/106/fopen): adding to final database dump
+0025.429 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_smartslider3_sliders_xref.table.gz (104/106/fopen): adding to final database dump
+0025.430 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_smartslider3_slides.table.tmpr6.gz (105/106/fopen): adding to final database dump
+0025.430 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nextend2_smartslider3_slides.table.gz (106/106/fopen): adding to final database dump
+0025.430 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nfd_data_event_queue.table.tmpr14.gz (107/106/fopen): adding to final database dump
+0025.430 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_nfd_data_event_queue.table.gz (108/106/fopen): adding to final database dump
+0025.431 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_discount_codes.table.tmpr0.gz (109/106/fopen): adding to final database dump
+0025.431 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_discount_codes.table.gz (110/106/fopen): adding to final database dump
+0025.431 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_discount_codes_levels.table.tmpr1.gz (111/106/fopen): adding to final database dump
+0025.431 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_discount_codes_levels.table.gz (112/106/fopen): adding to final database dump
+0025.432 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_discount_codes_uses.table.tmpr0.gz (113/106/fopen): adding to final database dump
+0025.432 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_discount_codes_uses.table.gz (114/106/fopen): adding to final database dump
+0025.432 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_membership_levelmeta.table.tmpr0.gz (115/106/fopen): adding to final database dump
+0025.432 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_membership_levelmeta.table.gz (116/106/fopen): adding to final database dump
+0025.433 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_membership_levels.table.tmpr0.gz (117/106/fopen): adding to final database dump
+0025.433 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_membership_levels.table.gz (118/106/fopen): adding to final database dump
+0025.433 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_membership_ordermeta.table.tmpr0.gz (119/106/fopen): adding to final database dump
+0025.434 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_membership_ordermeta.table.gz (120/106/fopen): adding to final database dump
+0025.434 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_membership_orders.table.tmpr0.gz (121/106/fopen): adding to final database dump
+0025.434 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_membership_orders.table.gz (122/106/fopen): adding to final database dump
+0025.434 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_memberships_categories.table.tmpr1.gz (123/106/fopen): adding to final database dump
+0025.435 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_memberships_categories.table.gz (124/106/fopen): adding to final database dump
+0025.435 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_memberships_pages.table.tmpr1.gz (125/106/fopen): adding to final database dump
+0025.435 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_memberships_pages.table.gz (126/106/fopen): adding to final database dump
+0025.435 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_memberships_users.table.tmpr0.gz (127/106/fopen): adding to final database dump
+0025.436 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_pmpro_memberships_users.table.gz (128/106/fopen): adding to final database dump
+0025.436 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_css.table.tmpr110.gz (129/106/fopen): adding to final database dump
+0025.436 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_css.table.gz (130/106/fopen): adding to final database dump
+0025.436 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_css_bkp.table.tmpr48.gz (131/106/fopen): adding to final database dump
+0025.437 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_css_bkp.table.gz (132/106/fopen): adding to final database dump
+0025.437 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_layer_animations.table.tmpr0.gz (133/106/fopen): adding to final database dump
+0025.437 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_layer_animations.table.gz (134/106/fopen): adding to final database dump
+0025.437 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_layer_animations_bkp.table.tmpr0.gz (135/106/fopen): adding to final database dump
+0025.438 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_layer_animations_bkp.table.gz (136/106/fopen): adding to final database dump
+0025.438 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_navigations.table.tmpr2.gz (137/106/fopen): adding to final database dump
+0025.438 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_navigations.table.gz (138/106/fopen): adding to final database dump
+0025.438 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_navigations_bkp.table.tmpr0.gz (139/106/fopen): adding to final database dump
+0025.439 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_navigations_bkp.table.gz (140/106/fopen): adding to final database dump
+0025.439 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_sliders.table.tmpr4.gz (141/106/fopen): adding to final database dump
+0025.439 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_sliders.table.gz (142/106/fopen): adding to final database dump
+0025.439 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_sliders_bkp.table.tmpr0.gz (143/106/fopen): adding to final database dump
+0025.440 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_sliders_bkp.table.gz (144/106/fopen): adding to final database dump
+0025.440 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_slides.table.tmpr12.gz (145/106/fopen): adding to final database dump
+0025.440 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_slides.table.gz (146/106/fopen): adding to final database dump
+0025.440 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_slides_bkp.table.tmpr0.gz (147/106/fopen): adding to final database dump
+0025.441 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_slides_bkp.table.gz (148/106/fopen): adding to final database dump
+0025.441 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_static_slides.table.tmpr4.gz (149/106/fopen): adding to final database dump
+0025.441 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_static_slides.table.gz (150/106/fopen): adding to final database dump
+0025.441 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_static_slides_bkp.table.tmpr0.gz (151/106/fopen): adding to final database dump
+0025.442 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_revslider_static_slides_bkp.table.gz (152/106/fopen): adding to final database dump
+0025.442 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_admin_note_actions.table.tmpr23143.gz (153/106/fopen): adding to final database dump
+0025.442 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_admin_note_actions.table.gz (154/106/fopen): adding to final database dump
+0025.442 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_admin_notes.table.tmpr162.gz (155/106/fopen): adding to final database dump
+0025.443 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_admin_notes.table.gz (156/106/fopen): adding to final database dump
+0025.443 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_customer_lookup.table.tmpr0.gz (157/106/fopen): adding to final database dump
+0025.444 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_customer_lookup.table.gz (158/106/fopen): adding to final database dump
+0025.444 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_download_log.table.tmpr0.gz (159/106/fopen): adding to final database dump
+0025.444 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_download_log.table.gz (160/106/fopen): adding to final database dump
+0025.444 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_order_coupon_lookup.table.tmpr1.gz (161/106/fopen): adding to final database dump
+0025.445 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_order_coupon_lookup.table.gz (162/106/fopen): adding to final database dump
+0025.445 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_order_product_lookup.table.tmpr0.gz (163/106/fopen): adding to final database dump
+0025.445 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_order_product_lookup.table.gz (164/106/fopen): adding to final database dump
+0025.445 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_order_stats.table.tmpr0.gz (165/106/fopen): adding to final database dump
+0025.446 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_order_stats.table.gz (166/106/fopen): adding to final database dump
+0025.446 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_order_tax_lookup.table.tmpr1.gz (167/106/fopen): adding to final database dump
+0025.446 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_order_tax_lookup.table.gz (168/106/fopen): adding to final database dump
+0025.446 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_webhooks.table.tmpr0.gz (169/106/fopen): adding to final database dump
+0025.447 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wc_webhooks.table.gz (170/106/fopen): adding to final database dump
+0025.447 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_api_keys.table.tmpr0.gz (171/106/fopen): adding to final database dump
+0025.447 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_api_keys.table.gz (172/106/fopen): adding to final database dump
+0025.447 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_attribute_taxonomies.table.tmpr0.gz (173/106/fopen): adding to final database dump
+0025.448 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_attribute_taxonomies.table.gz (174/106/fopen): adding to final database dump
+0025.448 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_downloadable_product_permissions.table.tmpr0.gz (175/106/fopen): adding to final database dump
+0025.448 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_downloadable_product_permissions.table.gz (176/106/fopen): adding to final database dump
+0025.449 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_log.table.tmpr0.gz (177/106/fopen): adding to final database dump
+0025.449 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_log.table.gz (178/106/fopen): adding to final database dump
+0025.449 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_order_items.table.tmpr0.gz (179/106/fopen): adding to final database dump
+0025.450 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_order_items.table.gz (180/106/fopen): adding to final database dump
+0025.450 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_payment_tokens.table.tmpr0.gz (181/106/fopen): adding to final database dump
+0025.451 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_payment_tokens.table.gz (182/106/fopen): adding to final database dump
+0025.451 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_sessions.table.tmpr14.gz (183/106/fopen): adding to final database dump
+0025.451 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_sessions.table.gz (184/106/fopen): adding to final database dump
+0025.452 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_shipping_zone_locations.table.tmpr0.gz (185/106/fopen): adding to final database dump
+0025.452 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_shipping_zone_locations.table.gz (186/106/fopen): adding to final database dump
+0025.454 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_shipping_zone_methods.table.tmpr0.gz (187/106/fopen): adding to final database dump
+0025.454 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_shipping_zone_methods.table.gz (188/106/fopen): adding to final database dump
+0025.454 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_shipping_zones.table.tmpr0.gz (189/106/fopen): adding to final database dump
+0025.455 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_shipping_zones.table.gz (190/106/fopen): adding to final database dump
+0025.458 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_tax_rate_locations.table.tmpr0.gz (191/106/fopen): adding to final database dump
+0025.458 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_tax_rate_locations.table.gz (192/106/fopen): adding to final database dump
+0025.458 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_tax_rates.table.tmpr0.gz (193/106/fopen): adding to final database dump
+0025.459 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_woocommerce_tax_rates.table.gz (194/106/fopen): adding to final database dump
+0025.459 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wpforms_logs.table.tmpr0.gz (195/106/fopen): adding to final database dump
+0025.459 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wpforms_logs.table.gz (196/106/fopen): adding to final database dump
+0025.460 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wpforms_payment_meta.table.tmpr0.gz (197/106/fopen): adding to final database dump
+0025.460 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wpforms_payment_meta.table.gz (198/106/fopen): adding to final database dump
+0025.460 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wpforms_payments.table.tmpr0.gz (199/106/fopen): adding to final database dump
+0025.461 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wpforms_payments.table.gz (200/106/fopen): adding to final database dump
+0025.461 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wpforms_tasks_meta.table.tmpr84.gz (201/106/fopen): adding to final database dump
+0025.462 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_wpforms_tasks_meta.table.gz (202/106/fopen): adding to final database dump
+0025.462 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_yoast_indexable.table.tmpr797.gz (203/106/fopen): adding to final database dump
+0025.463 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_yoast_indexable.table.gz (204/106/fopen): adding to final database dump
+0025.465 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_yoast_indexable_hierarchy.table.tmpr1001.gz (205/106/fopen): adding to final database dump
+0025.466 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_yoast_indexable_hierarchy.table.gz (206/106/fopen): adding to final database dump
+0025.466 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_yoast_migrations.table.tmpr22.gz (207/106/fopen): adding to final database dump
+0025.467 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_yoast_migrations.table.gz (208/106/fopen): adding to final database dump
+0025.467 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_yoast_primary_term.table.tmpr2.gz (209/106/fopen): adding to final database dump
+0025.467 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_yoast_primary_term.table.gz (210/106/fopen): adding to final database dump
+0025.468 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_yoast_seo_links.table.tmpr2377.gz (211/106/fopen): adding to final database dump
+0025.469 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db-table-wpa7_yoast_seo_links.table.gz (212/106/fopen): adding to final database dump
+0025.494 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db.gz: finished writing out complete database file (1199.4 KB)
+0025.534 (0) Total database tables backed up: 106 (backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db.gz, size: 1228293, sha1: 1fc0271ba5ec041222e6697990c73e460fa7a756, sha256: d86c1451290fd734405913ef1793fe69f4e2e38e1c9702111cdbc4a63257cd13)
+0025.550 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0025.550 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0025.551 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0025.551 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-others.zip: others: This file has not yet been successfully uploaded: will queue
+0025.551 (0) backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db.gz: db: This file has not yet been successfully uploaded: will queue
+0025.552 (0) Saving backup history. Total backup size: 201.4 MB
+0025.557 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus::$error_count_before_cloud_backup is deprecated (line 2636, wp-content/plugins/updraftplus/class-updraftplus.php)
+0025.557 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0025.558 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$current_service is deprecated (line 450, wp-content/plugins/updraftplus/backup.php)
+0025.559 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0025.559 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$current_instance is deprecated (line 488, wp-content/plugins/updraftplus/backup.php)
+0025.559 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4f3a8bd9a2d64a402608cbb80de9d3c3)
+0025.808 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 249, wp-content/plugins/updraftplus/includes/Google/Model.php)
+0025.808 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 254, wp-content/plugins/updraftplus/includes/Google/Model.php)
+0025.809 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 261, wp-content/plugins/updraftplus/includes/Google/Model.php)
+0025.809 (0) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 271, wp-content/plugins/updraftplus/includes/Google/Model.php)
+0025.809 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 24, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0025.810 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 40, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0025.810 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 32, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0025.810 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 45, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0025.810 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 16, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0025.811 (0) PHP event: code E_DEPRECATED: Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 51, wp-content/plugins/updraftplus/includes/Google/Collection.php)
+0025.811 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive::$serviceName is deprecated (line 83, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0026.080 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_BackupModule_googledrive::$root_id is deprecated (line 106, wp-content/plugins/updraftplus/methods/googledrive.php)
+0026.549 (0) Google Drive: quota usage: used=11943.7 MB, total=15360 MB, available=3416.3 MB
+0026.550 (0) Google Drive: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip: Attempting to upload to Google Drive (into folder id: 12frAh7FcdjyCqMXWhPMWAnKrqBUapy-e)
+0026.550 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0026.552 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, wp-content/plugins/updraftplus/includes/google-extensions.php)
+0026.890 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0027.113 (0) Googledrive chunked upload: 1.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 99.7 / 128)
+0027.115 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0027.367 (0) Googledrive chunked upload: 4.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 99.7 / 128)
+0027.373 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0027.683 (0) Googledrive chunked upload: 10.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 99.7 / 128)
+0027.690 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0028.107 (0) Googledrive chunked upload: 23.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 99.7 / 128)
+0028.121 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0028.666 (0) Googledrive chunked upload: 47.8 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 99.7 / 128)
+0028.694 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0029.505 (0) Googledrive chunked upload: 97.1 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 99.7 / 128)
+0029.509 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0031.010 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0031.012 (0) Google Drive: OK: Archive backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip uploaded in 4.46 seconds
+0031.013 (0) Recording as successfully uploaded: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip
+0031.025 (0) Deleting local file: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip: OK
+0031.028 (0) Deleting zip manifest (backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-plugins.zip.list.tmp)
+0031.263 (0) Google Drive: quota usage: used=12008.6 MB, total=15360 MB, available=3351.4 MB
+0031.264 (0) Google Drive: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip: Attempting to upload to Google Drive (into folder id: 12frAh7FcdjyCqMXWhPMWAnKrqBUapy-e)
+0031.265 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0031.265 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, wp-content/plugins/updraftplus/includes/google-extensions.php)
+0031.637 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0031.836 (0) Googledrive chunked upload: 4.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 99.7 / 128)
+0031.839 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0032.089 (0) Googledrive chunked upload: 13 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 99.7 / 128)
+0032.093 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0032.363 (0) Googledrive chunked upload: 30.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 99.7 / 128)
+0032.370 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0032.746 (0) Googledrive chunked upload: 65.2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 99.7 / 128)
+0032.754 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0034.134 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0034.138 (0) Google Drive: OK: Archive backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip uploaded in 2.87 seconds
+0034.139 (0) Recording as successfully uploaded: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip
+0034.143 (0) Deleting local file: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip: OK
+0034.143 (0) Deleting zip manifest (backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-themes.zip.list.tmp)
+0034.423 (0) Google Drive: quota usage: used=12031.6 MB, total=15360 MB, available=3328.4 MB
+0034.424 (0) Google Drive: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip: Attempting to upload to Google Drive (into folder id: 12frAh7FcdjyCqMXWhPMWAnKrqBUapy-e)
+0034.424 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0034.425 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, wp-content/plugins/updraftplus/includes/google-extensions.php)
+0034.768 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0034.961 (0) Googledrive chunked upload: 0.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 99.7 / 128)
+0034.963 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0035.192 (0) Googledrive chunked upload: 2.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 99.7 / 128)
+0035.196 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0035.488 (0) Googledrive chunked upload: 6.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 99.7 / 128)
+0035.497 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0035.947 (0) Googledrive chunked upload: 13.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 99.7 / 128)
+0035.973 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0036.512 (0) Googledrive chunked upload: 28 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 99.7 / 128)
+0036.543 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0037.374 (0) Googledrive chunked upload: 56.8 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 99.7 / 128)
+0037.412 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0039.605 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0039.606 (0) Google Drive: OK: Archive backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip uploaded in 5.18 seconds
+0039.607 (0) Recording as successfully uploaded: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip
+0039.626 (0) Deleting local file: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip: OK
+0039.626 (0) Deleting zip manifest (backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-uploads.zip.list.tmp)
+0039.877 (0) Google Drive: quota usage: used=12142.5 MB, total=15360 MB, available=3217.5 MB
+0039.878 (0) Google Drive: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-others.zip: Attempting to upload to Google Drive (into folder id: 12frAh7FcdjyCqMXWhPMWAnKrqBUapy-e)
+0039.878 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0039.878 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, wp-content/plugins/updraftplus/includes/google-extensions.php)
+0040.210 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0040.404 (0) Googledrive chunked upload: 70.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 99.7 / 130)
+0040.406 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0041.779 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0041.780 (0) Google Drive: OK: Archive backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-others.zip uploaded in 1.9 seconds
+0041.780 (0) Recording as successfully uploaded: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-others.zip
+0041.782 (0) Deleting local file: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-others.zip: OK
+0041.782 (0) Deleting zip manifest (backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-others.zip.list.tmp)
+0042.005 (0) Google Drive: quota usage: used=12142.5 MB, total=15360 MB, available=3217.5 MB
+0042.007 (0) Google Drive: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db.gz: Attempting to upload to Google Drive (into folder id: 12frAh7FcdjyCqMXWhPMWAnKrqBUapy-e)
+0042.008 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UDP_Google_Service_Drive_DriveFile::$parents is deprecated (line 4318, wp-content/plugins/updraftplus/includes/Google/Service/Drive.php)
+0042.010 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, wp-content/plugins/updraftplus/includes/google-extensions.php)
+0042.358 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0042.572 (0) Googledrive chunked upload: 85.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 99.7 / 130)
+0042.573 (0) PHP event: code E_DEPRECATED: str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 111, wp-content/plugins/updraftplus/includes/Google/Http/Request.php)
+0043.782 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0043.784 (0) Google Drive: OK: Archive backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db.gz uploaded in 1.78 seconds
+0043.784 (0) Recording as successfully uploaded: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db.gz
+0043.785 (0) Deleting local file: backup_2024-07-16-0604_Professor_Abdullah_Otyanga_c11782d39c45-db.gz: OK
+0043.787 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0043.788 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1720581600, 1720562100, 1720511760, 1720511220, 1718410020, 1718314860, 1716346680, 1714957740, 1714430280, 1714187760, 1713565320, 1711081800, 1708811880, 1707119640, 1705102980, 1704758760, 1703076900, 1697788020, 1695975720, 1690773420, 1690675440, 1690589760, 1690524300, 1690414980, 1690329660, 1690275180, 1690120080, 1688791920, 1688791380, 1688472660, 1688454480, 1688096160, 1688095320, 1687995600, 1687467900, 1686816240, 1686733380, 1686542280, 1686472020, 1686455880, 1686374220, 1686037980, 1685859660, 1685610900, 1685590560, 1685579760, 1685394900, 1684036740, 1683704880, 1683527400, 1683516900, 1683429300, 1683384000, 1682742240, 1682350680, 1682024880, 1680997920, 1680931140, 1680930840, 1680912780, 1680912540, 1680911880, 1680911220, 1680910860, 1680909840, 1680908880, 1680906780, 1680852960, 1680852780, 1680852600, 1680851460, 1680850200, 1680849660, 1680849480, 1680849180, 1680848760, 1680848460
+0043.789 (0) Number of backup sets in history: 78; groups (db): 1
+0043.789 (0) Examining (for databases) backup set with group_id=0, nonce=c11782d39c45, datestamp=1721109850 (Jul 16 2024 06:04:10)
+0043.790 (0) This backup set is the backup set just made, so will not be deleted.
+0043.790 (0) Number of backup sets in history: 78; groups (files): 1
+0043.790 (0) Examining (for files) backup set with nonce=c11782d39c45, datestamp=1721109850 (Jul 16 2024 06:04:10)
+0043.790 (0) This backup set is the backup set just made, so will not be deleted.
+0043.790 (0) This backup set is the backup set just made, so will not be deleted.
+0043.790 (0) This backup set is the backup set just made, so will not be deleted.
+0043.790 (0) This backup set is the backup set just made, so will not be deleted.
+0043.790 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0043.791 (0) Retain: saving new backup history (sets now: 78) and finishing retain operation
+0043.792 (0) Resume backup (c11782d39c45, 0): finish run
+0043.793 (0) Decremented the semaphore (fd) by 1
+0043.794 (0) Semaphore (fd) unlocked
+0043.794 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0043.796 (0) No email will/can be sent - the user has not configured an email address.
+0043.796 (0) The backup apparently succeeded and is now complete

@@ -1,0 +1,8 @@
+0000.000 (1) Opened log file at time: Wed, 10 Jul 2024 07:21:00 +0000 on https://abdullahotyanga.com
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.4 WP: 6.5.5 PHP: 8.2.18 (litespeed, Linux cp-40.webhostbox.net 4.19.286-203.ELK.el7.x86_64 #1 SMP Wed Jun 14 04:33:55 CDT 2023 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 79.5M | 82M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.038 (1) Free space on disk containing Updraft's temporary directory: 378473.4 MB
+0000.040 (1) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus::$backup_semaphore is deprecated (line 3073, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.040 (1) Requesting backup semaphore lock (3436504ddaea)
+0000.042 (1) [Debug] Lock option (updraft_lock_3436504ddaea, wpa7_options) was created in the database
+0000.042 (1) [Info] Lock (updraft_lock_3436504ddaea, wpa7_options) acquired after initialising the database
+0000.043 (1) This backup task (3436504ddaea) is either complete or began over 2 days ago: ending (1720596060.1209, ) (existing jobdata keys: )

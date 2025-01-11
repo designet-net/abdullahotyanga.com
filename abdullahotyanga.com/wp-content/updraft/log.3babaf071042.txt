@@ -1,0 +1,694 @@
+0000.003 () Opened log file at time: Wed, 10 Jul 2024 07:20:37 +0000 on https://abdullahotyanga.com
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.5.5 PHP: 8.2.18 (litespeed, Linux cp-40.webhostbox.net 4.19.286-203.ELK.el7.x86_64 #1 SMP Wed Jun 14 04:33:55 CDT 2023 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 59.6M | 62M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.060 () Free space on disk containing Updraft's temporary directory: 378775.9 MB
+0000.081 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Wed, 10 Jul 2024 07:20:39 +0000 on https://abdullahotyanga.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.5.5 PHP: 8.2.18 (litespeed, Linux cp-40.webhostbox.net 4.19.286-203.ELK.el7.x86_64 #1 SMP Wed Jun 14 04:33:55 CDT 2023 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 55M | 58M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.044 () Free space on disk containing Updraft's temporary directory: 378775.8 MB
+0000.061 () Ensuring WP_Filesystem is setup for a restore
+0000.061 () WP_Filesystem is setup and ready for a restore
+0000.064 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wpkb_options","wpkb_users","wpkb_usermeta","wpkb_actionscheduler_actions","wpkb_actionscheduler_claims","wpkb_actionscheduler_groups","wpkb_actionscheduler_logs","wpkb_commentmeta","wpkb_comments","wpkb_links","wpkb_postmeta","wpkb_posts","wpkb_term_relationships","wpkb_term_taxonomy","wpkb_termmeta","wpkb_terms","wpkb_wc_category_lookup","wpkb_wc_product_meta_lookup","wpkb_wc_reserved_stock","wpkb_wc_tax_rate_classes","wpkb_woocommerce_order_itemmeta","wpkb_woocommerce_payment_tokenmeta","wpkb_addonlibrary_addons","wpkb_addonlibrary_categories","wpkb_cartflows_ca_cart_abandonment","wpkb_cartflows_ca_email_history","wpkb_cartflows_ca_email_templates","wpkb_cartflows_ca_email_templates_meta","wpkb_cas_plugin","wpkb_e_events","wpkb_learnpress_order_itemmeta","wpkb_learnpress_order_items","wpkb_learnpress_question_answermeta","wpkb_learnpress_question_answers","wpkb_learnpress_quiz_questions","wpkb_learnpress_review_logs","wpkb_learnpress_section_items","wpkb_learnpress_sections","wpkb_learnpress_sessions","wpkb_learnpress_user_item_results","wpkb_learnpress_user_itemmeta","wpkb_learnpress_user_items","wpkb_newsletter","wpkb_newsletter_emails","wpkb_newsletter_sent","wpkb_newsletter_stats","wpkb_newsletter_user_logs","wpkb_nextend2_image_storage","wpkb_nextend2_section_storage","wpkb_nextend2_smartslider3_generators","wpkb_nextend2_smartslider3_sliders","wpkb_nextend2_smartslider3_sliders_xref","wpkb_nextend2_smartslider3_slides","wpkb_pmpro_discount_codes","wpkb_pmpro_discount_codes_levels","wpkb_pmpro_discount_codes_uses","wpkb_pmpro_membership_levelmeta","wpkb_pmpro_membership_levels","wpkb_pmpro_membership_ordermeta","wpkb_pmpro_membership_orders","wpkb_pmpro_memberships_categories","wpkb_pmpro_memberships_pages","wpkb_pmpro_memberships_users","wpkb_revslider_css","wpkb_revslider_css_bkp","wpkb_revslider_layer_animations","wpkb_revslider_layer_animations_bkp","wpkb_revslider_navigations","wpkb_revslider_navigations_bkp","wpkb_revslider_sliders","wpkb_revslider_sliders_bkp","wpkb_revslider_slides","wpkb_revslider_slides_bkp","wpkb_revslider_static_slides","wpkb_revslider_static_slides_bkp","wpkb_wc_admin_note_actions","wpkb_wc_admin_notes","wpkb_wc_customer_lookup","wpkb_wc_download_log","wpkb_wc_order_coupon_lookup","wpkb_wc_order_product_lookup","wpkb_wc_order_stats","wpkb_wc_order_tax_lookup","wpkb_wc_webhooks","wpkb_woocommerce_api_keys","wpkb_woocommerce_attribute_taxonomies","wpkb_woocommerce_downloadable_product_permissions","wpkb_woocommerce_log","wpkb_woocommerce_order_items","wpkb_woocommerce_payment_tokens","wpkb_woocommerce_sessions","wpkb_woocommerce_shipping_zone_locations","wpkb_woocommerce_shipping_zone_methods","wpkb_woocommerce_shipping_zones","wpkb_woocommerce_tax_rate_locations","wpkb_woocommerce_tax_rates","wpkb_wpforms_tasks_meta","wpkb_yoast_indexable","wpkb_yoast_indexable_hierarchy","wpkb_yoast_migrations","wpkb_yoast_primary_term","wpkb_yoast_seo_links"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.065 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.068 () Entity: db
+0000.068 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-db.gz, type=db, info=a:0:{}, last_one=)
+0000.068 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-db.gz, 0.7 Mb)
+0000.068 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.070 () Database successfully unpacked
+0000.070 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.070 () Using direct MySQL access; value of use_mysqli is: 1
+0000.070 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.111 () Max packet size: 256 MB
+0000.111 () Entering maintenance mode
+0000.111 () Enabling Maintenance mode&#8230;
+0000.120 () Backup created by: 1.22.4
+0000.120 () Backup of: https://mwesukicharityorganisation.org
+0000.126 () Content URL: https://mwesukicharityorganisation.org/wp-content
+0000.126 () Uploads URL: https://mwesukicharityorganisation.org/wp-content/uploads
+0000.126 () Old table prefix: wpkb_
+0000.126 () Old ABSPATH: /home3/novus6sk/mwesukicharityorganisation.org/
+0000.126 () Site information: multisite=0
+0000.126 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.127 () New table prefix: vy_
+0000.129 () Processing table (InnoDB): wpkb_options - will restore as: vy_options
+0000.342 () Atomic restore: dropping original table (wpa7_options)
+0000.361 () Atomic restore: renaming new table (vy_options) to final table name (wpa7_options)
+0000.367 () Restoring prior UD configuration (table: wpa7_options; keys: 102)
+0000.418 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.435 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, wp-content/plugins/updraftplus/options.php)
+0000.435 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, wp-content/plugins/updraftplus/options.php)
+0000.463 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.463 () Options table fields changed OK
+0000.466 () Search and replacing table: wpa7_options: rows: 606
+0000.551 () Processing table (InnoDB): wpkb_users - will restore as: vy_users
+0000.581 () Atomic restore: dropping original table (wpa7_users)
+0000.596 () Atomic restore: renaming new table (vy_users) to final table name (wpa7_users)
+0000.606 () Search and replacing table: wpa7_users: rows: 1
+0000.606 () Processing table (InnoDB): wpkb_usermeta - will restore as: vy_usermeta
+0000.633 () Atomic restore: dropping original table (wpa7_usermeta)
+0000.643 () Atomic restore: renaming new table (vy_usermeta) to final table name (wpa7_usermeta)
+0000.648 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.649 () Usermeta table fields changed OK
+0000.649 () Search and replacing table: wpa7_usermeta: rows: 65
+0000.650 () Processing table (InnoDB): wpkb_actionscheduler_actions - will restore as: vy_actionscheduler_actions
+0000.682 () Atomic restore: dropping original table (wpa7_actionscheduler_actions)
+0000.696 () Atomic restore: renaming new table (vy_actionscheduler_actions) to final table name (wpa7_actionscheduler_actions)
+0000.701 () Search and replacing table: wpa7_actionscheduler_actions: rows: 0
+0000.701 () Processing table (InnoDB): wpkb_actionscheduler_claims - will restore as: vy_actionscheduler_claims
+0000.714 () Atomic restore: dropping original table (wpa7_actionscheduler_claims)
+0000.724 () Atomic restore: renaming new table (vy_actionscheduler_claims) to final table name (wpa7_actionscheduler_claims)
+0000.731 () Search and replacing table: wpa7_actionscheduler_claims: rows: 0
+0000.731 () Processing table (InnoDB): wpkb_actionscheduler_groups - will restore as: vy_actionscheduler_groups
+0000.752 () Atomic restore: dropping original table (wpa7_actionscheduler_groups)
+0000.763 () Atomic restore: renaming new table (vy_actionscheduler_groups) to final table name (wpa7_actionscheduler_groups)
+0000.770 () Search and replacing table: wpa7_actionscheduler_groups: rows: 3
+0000.770 () Processing table (InnoDB): wpkb_actionscheduler_logs - will restore as: vy_actionscheduler_logs
+0000.787 () Atomic restore: dropping original table (wpa7_actionscheduler_logs)
+0000.800 () Atomic restore: renaming new table (vy_actionscheduler_logs) to final table name (wpa7_actionscheduler_logs)
+0000.806 () Search and replacing table: wpa7_actionscheduler_logs: rows: 0
+0000.806 () Processing table (InnoDB): wpkb_commentmeta - will restore as: vy_commentmeta
+0000.819 () Atomic restore: dropping original table (wpa7_commentmeta)
+0000.827 () Atomic restore: renaming new table (vy_commentmeta) to final table name (wpa7_commentmeta)
+0000.831 () Search and replacing table: wpa7_commentmeta: rows: 0
+0000.831 () Processing table (InnoDB): wpkb_comments - will restore as: vy_comments
+0000.858 () Atomic restore: dropping original table (wpa7_comments)
+0000.872 () Atomic restore: renaming new table (vy_comments) to final table name (wpa7_comments)
+0000.877 () Search and replacing table: wpa7_comments: rows: 0
+0000.877 () Processing table (InnoDB): wpkb_links - will restore as: vy_links
+0000.896 () Atomic restore: dropping original table (wpa7_links)
+0000.905 () Atomic restore: renaming new table (vy_links) to final table name (wpa7_links)
+0000.912 () Search and replacing table: wpa7_links: rows: 0
+0000.912 () Processing table (InnoDB): wpkb_postmeta - will restore as: vy_postmeta
+0001.219 () Atomic restore: dropping original table (wpa7_postmeta)
+0001.228 () Atomic restore: renaming new table (vy_postmeta) to final table name (wpa7_postmeta)
+0001.243 () Search and replacing table: wpa7_postmeta: rows: 40
+0001.254 () Processing table (InnoDB): wpkb_posts - will restore as: vy_posts
+0001.414 () Atomic restore: dropping original table (wpa7_posts)
+0001.429 () Atomic restore: renaming new table (vy_posts) to final table name (wpa7_posts)
+0001.435 () Skipping search/replace on GUID column in posts table
+0001.435 () Search and replacing table: wpa7_posts: rows: 726
+0001.478 () Processing table (InnoDB): wpkb_term_relationships - will restore as: vy_term_relationships
+0001.496 () Atomic restore: dropping original table (wpa7_term_relationships)
+0001.504 () Atomic restore: renaming new table (vy_term_relationships) to final table name (wpa7_term_relationships)
+0001.510 () Skipping this table: data in this table (wpa7_term_relationships) should not be search/replaced
+0001.510 () Processing table (InnoDB): wpkb_term_taxonomy - will restore as: vy_term_taxonomy
+0001.525 () Database queries processed: 50 in 1.45 seconds
+0001.526 () Atomic restore: dropping original table (wpa7_term_taxonomy)
+0001.537 () Atomic restore: renaming new table (vy_term_taxonomy) to final table name (wpa7_term_taxonomy)
+0001.547 () Search and replacing table: wpa7_term_taxonomy: rows: 48
+0001.548 () Processing table (InnoDB): wpkb_termmeta - will restore as: vy_termmeta
+0001.565 () Atomic restore: dropping original table (wpa7_termmeta)
+0001.576 () Atomic restore: renaming new table (vy_termmeta) to final table name (wpa7_termmeta)
+0001.584 () Search and replacing table: wpa7_termmeta: rows: 67
+0001.584 () Processing table (InnoDB): wpkb_terms - will restore as: vy_terms
+0001.605 () Atomic restore: dropping original table (wpa7_terms)
+0001.614 () Atomic restore: renaming new table (vy_terms) to final table name (wpa7_terms)
+0001.621 () Search and replacing table: wpa7_terms: rows: 48
+0001.621 () Processing table (InnoDB): wpkb_wc_category_lookup - will restore as: vy_wc_category_lookup
+0001.635 () Atomic restore: dropping original table (wpa7_wc_category_lookup)
+0001.635 () Atomic restore: renaming new table (vy_wc_category_lookup) to final table name (wpa7_wc_category_lookup)
+0001.638 () Search and replacing table: wpa7_wc_category_lookup: rows: 17
+0001.638 () Processing table (InnoDB): wpkb_wc_product_meta_lookup - will restore as: vy_wc_product_meta_lookup
+0001.663 () Atomic restore: dropping original table (wpa7_wc_product_meta_lookup)
+0001.663 () Atomic restore: renaming new table (vy_wc_product_meta_lookup) to final table name (wpa7_wc_product_meta_lookup)
+0001.668 () Search and replacing table: wpa7_wc_product_meta_lookup: rows: 0
+0001.668 () Processing table (InnoDB): wpkb_wc_reserved_stock - will restore as: vy_wc_reserved_stock
+0001.686 () Atomic restore: dropping original table (wpa7_wc_reserved_stock)
+0001.687 () Atomic restore: renaming new table (vy_wc_reserved_stock) to final table name (wpa7_wc_reserved_stock)
+0001.693 () Search and replacing table: wpa7_wc_reserved_stock: rows: 0
+0001.693 () Processing table (InnoDB): wpkb_wc_tax_rate_classes - will restore as: vy_wc_tax_rate_classes
+0001.711 () Atomic restore: dropping original table (wpa7_wc_tax_rate_classes)
+0001.711 () Atomic restore: renaming new table (vy_wc_tax_rate_classes) to final table name (wpa7_wc_tax_rate_classes)
+0001.719 () Search and replacing table: wpa7_wc_tax_rate_classes: rows: 2
+0001.720 () Processing table (InnoDB): wpkb_woocommerce_order_itemmeta - will restore as: vy_woocommerce_order_itemmeta
+0001.737 () Atomic restore: dropping original table (wpa7_woocommerce_order_itemmeta)
+0001.737 () Atomic restore: renaming new table (vy_woocommerce_order_itemmeta) to final table name (wpa7_woocommerce_order_itemmeta)
+0001.743 () Search and replacing table: wpa7_woocommerce_order_itemmeta: rows: 0
+0001.743 () Processing table (InnoDB): wpkb_woocommerce_payment_tokenmeta - will restore as: vy_woocommerce_payment_tokenmeta
+0001.758 () Atomic restore: dropping original table (wpa7_woocommerce_payment_tokenmeta)
+0001.759 () Atomic restore: renaming new table (vy_woocommerce_payment_tokenmeta) to final table name (wpa7_woocommerce_payment_tokenmeta)
+0001.764 () Search and replacing table: wpa7_woocommerce_payment_tokenmeta: rows: 0
+0001.764 () Processing table (InnoDB): wpkb_addonlibrary_addons - will restore as: vy_addonlibrary_addons
+0001.785 () Atomic restore: dropping original table (wpa7_addonlibrary_addons)
+0001.785 () Atomic restore: renaming new table (vy_addonlibrary_addons) to final table name (wpa7_addonlibrary_addons)
+0001.789 () Search and replacing table: wpa7_addonlibrary_addons: rows: 1
+0001.792 () Processing table (InnoDB): wpkb_addonlibrary_categories - will restore as: vy_addonlibrary_categories
+0001.804 () Atomic restore: dropping original table (wpa7_addonlibrary_categories)
+0001.804 () Atomic restore: renaming new table (vy_addonlibrary_categories) to final table name (wpa7_addonlibrary_categories)
+0001.810 () Search and replacing table: wpa7_addonlibrary_categories: rows: 1
+0001.810 () Processing table (InnoDB): wpkb_cartflows_ca_cart_abandonment - will restore as: vy_cartflows_ca_cart_abandonment
+0001.831 () Atomic restore: dropping original table (wpa7_cartflows_ca_cart_abandonment)
+0001.831 () Atomic restore: renaming new table (vy_cartflows_ca_cart_abandonment) to final table name (wpa7_cartflows_ca_cart_abandonment)
+0001.835 () Search and replacing table: wpa7_cartflows_ca_cart_abandonment: rows: 1
+0001.836 () Incomplete object detected in database: WC_Product_Simple; Search and replace will be skipped for these entries
+0001.836 () Processing table (InnoDB): wpkb_cartflows_ca_email_history - will restore as: wpa7_cartflows_ca_email_history
+0001.854 () Search and replacing table: wpa7_cartflows_ca_email_history: rows: 0
+0001.854 () Processing table (InnoDB): wpkb_cartflows_ca_email_templates - will restore as: vy_cartflows_ca_email_templates
+0001.871 () Atomic restore: dropping original table (wpa7_cartflows_ca_email_templates)
+0001.871 () Atomic restore: renaming new table (vy_cartflows_ca_email_templates) to final table name (wpa7_cartflows_ca_email_templates)
+0001.877 () Search and replacing table: wpa7_cartflows_ca_email_templates: rows: 3
+0001.878 () Processing table (InnoDB): wpkb_cartflows_ca_email_templates_meta - will restore as: wpa7_cartflows_ca_email_templates_meta
+0001.893 () Search and replacing table: wpa7_cartflows_ca_email_templates_meta: rows: 15
+0001.893 () Processing table (MyISAM): wpkb_cas_plugin - will restore as: vy_cas_plugin
+0001.901 () Atomic restore: dropping original table (wpa7_cas_plugin)
+0001.902 () Atomic restore: renaming new table (vy_cas_plugin) to final table name (wpa7_cas_plugin)
+0001.904 () Search and replacing table: wpa7_cas_plugin: rows: 3
+0001.904 () Processing table (InnoDB): wpkb_e_events - will restore as: vy_e_events
+0001.921 () Atomic restore: dropping original table (wpa7_e_events)
+0001.921 () Atomic restore: renaming new table (vy_e_events) to final table name (wpa7_e_events)
+0001.926 () Search and replacing table: wpa7_e_events: rows: 1
+0001.926 () Processing table (InnoDB): wpkb_learnpress_order_itemmeta - will restore as: vy_learnpress_order_itemmeta
+0001.951 () Atomic restore: dropping original table (wpa7_learnpress_order_itemmeta)
+0001.951 () Atomic restore: renaming new table (vy_learnpress_order_itemmeta) to final table name (wpa7_learnpress_order_itemmeta)
+0001.955 () Search and replacing table: wpa7_learnpress_order_itemmeta: rows: 0
+0001.955 () Processing table (InnoDB): wpkb_learnpress_order_items - will restore as: vy_learnpress_order_items
+0001.970 () Atomic restore: dropping original table (wpa7_learnpress_order_items)
+0001.970 () Atomic restore: renaming new table (vy_learnpress_order_items) to final table name (wpa7_learnpress_order_items)
+0001.976 () Search and replacing table: wpa7_learnpress_order_items: rows: 0
+0001.976 () Processing table (InnoDB): wpkb_learnpress_question_answermeta - will restore as: vy_learnpress_question_answermeta
+0001.989 () Atomic restore: dropping original table (wpa7_learnpress_question_answermeta)
+0001.989 () Database queries processed: 100 in 1.92 seconds
+0001.989 () Atomic restore: renaming new table (vy_learnpress_question_answermeta) to final table name (wpa7_learnpress_question_answermeta)
+0001.996 () Search and replacing table: wpa7_learnpress_question_answermeta: rows: 0
+0001.996 () Processing table (InnoDB): wpkb_learnpress_question_answers - will restore as: vy_learnpress_question_answers
+0002.011 () Atomic restore: dropping original table (wpa7_learnpress_question_answers)
+0002.011 () Atomic restore: renaming new table (vy_learnpress_question_answers) to final table name (wpa7_learnpress_question_answers)
+0002.014 () Search and replacing table: wpa7_learnpress_question_answers: rows: 0
+0002.014 () Processing table (InnoDB): wpkb_learnpress_quiz_questions - will restore as: vy_learnpress_quiz_questions
+0002.029 () Atomic restore: dropping original table (wpa7_learnpress_quiz_questions)
+0002.029 () Atomic restore: renaming new table (vy_learnpress_quiz_questions) to final table name (wpa7_learnpress_quiz_questions)
+0002.036 () Search and replacing table: wpa7_learnpress_quiz_questions: rows: 0
+0002.036 () Processing table (InnoDB): wpkb_learnpress_review_logs - will restore as: vy_learnpress_review_logs
+0002.050 () Atomic restore: dropping original table (wpa7_learnpress_review_logs)
+0002.050 () Atomic restore: renaming new table (vy_learnpress_review_logs) to final table name (wpa7_learnpress_review_logs)
+0002.056 () Search and replacing table: wpa7_learnpress_review_logs: rows: 0
+0002.056 () Processing table (InnoDB): wpkb_learnpress_section_items - will restore as: vy_learnpress_section_items
+0002.072 () Atomic restore: dropping original table (wpa7_learnpress_section_items)
+0002.072 () Atomic restore: renaming new table (vy_learnpress_section_items) to final table name (wpa7_learnpress_section_items)
+0002.076 () Search and replacing table: wpa7_learnpress_section_items: rows: 0
+0002.076 () Processing table (InnoDB): wpkb_learnpress_sections - will restore as: vy_learnpress_sections
+0002.093 () Atomic restore: dropping original table (wpa7_learnpress_sections)
+0002.093 () Atomic restore: renaming new table (vy_learnpress_sections) to final table name (wpa7_learnpress_sections)
+0002.097 () Search and replacing table: wpa7_learnpress_sections: rows: 0
+0002.097 () Processing table (InnoDB): wpkb_learnpress_sessions - will restore as: vy_learnpress_sessions
+0002.285 () Atomic restore: dropping original table (wpa7_learnpress_sessions)
+0002.285 () Atomic restore: renaming new table (vy_learnpress_sessions) to final table name (wpa7_learnpress_sessions)
+0002.296 () Search and replacing table: wpa7_learnpress_sessions: rows: 3201
+0002.336 () Processing table (InnoDB): wpkb_learnpress_user_item_results - will restore as: vy_learnpress_user_item_results
+0002.349 () Atomic restore: dropping original table (wpa7_learnpress_user_item_results)
+0002.349 () Atomic restore: renaming new table (vy_learnpress_user_item_results) to final table name (wpa7_learnpress_user_item_results)
+0002.356 () Search and replacing table: wpa7_learnpress_user_item_results: rows: 0
+0002.356 () Processing table (InnoDB): wpkb_learnpress_user_itemmeta - will restore as: vy_learnpress_user_itemmeta
+0002.378 () Atomic restore: dropping original table (wpa7_learnpress_user_itemmeta)
+0002.378 () Atomic restore: renaming new table (vy_learnpress_user_itemmeta) to final table name (wpa7_learnpress_user_itemmeta)
+0002.382 () Search and replacing table: wpa7_learnpress_user_itemmeta: rows: 0
+0002.382 () Processing table (InnoDB): wpkb_learnpress_user_items - will restore as: vy_learnpress_user_items
+0002.417 () Atomic restore: dropping original table (wpa7_learnpress_user_items)
+0002.418 () Atomic restore: renaming new table (vy_learnpress_user_items) to final table name (wpa7_learnpress_user_items)
+0002.423 () Search and replacing table: wpa7_learnpress_user_items: rows: 0
+0002.423 () Processing table (InnoDB): wpkb_newsletter - will restore as: vy_newsletter
+0002.449 () Atomic restore: dropping original table (wpa7_newsletter)
+0002.449 () Atomic restore: renaming new table (vy_newsletter) to final table name (wpa7_newsletter)
+0002.457 () Search and replacing table: wpa7_newsletter: rows: 4
+0002.458 () Processing table (InnoDB): wpkb_newsletter_emails - will restore as: vy_newsletter_emails
+0002.477 () Atomic restore: dropping original table (wpa7_newsletter_emails)
+0002.477 () Atomic restore: renaming new table (vy_newsletter_emails) to final table name (wpa7_newsletter_emails)
+0002.482 () Search and replacing table: wpa7_newsletter_emails: rows: 0
+0002.482 () Processing table (InnoDB): wpkb_newsletter_sent - will restore as: vy_newsletter_sent
+0002.500 () Atomic restore: dropping original table (wpa7_newsletter_sent)
+0002.500 () Atomic restore: renaming new table (vy_newsletter_sent) to final table name (wpa7_newsletter_sent)
+0002.505 () Search and replacing table: wpa7_newsletter_sent: rows: 0
+0002.505 () Processing table (InnoDB): wpkb_newsletter_stats - will restore as: vy_newsletter_stats
+0002.526 () Atomic restore: dropping original table (wpa7_newsletter_stats)
+0002.527 () Atomic restore: renaming new table (vy_newsletter_stats) to final table name (wpa7_newsletter_stats)
+0002.531 () Search and replacing table: wpa7_newsletter_stats: rows: 0
+0002.531 () Processing table (InnoDB): wpkb_newsletter_user_logs - will restore as: vy_newsletter_user_logs
+0002.545 () Atomic restore: dropping original table (wpa7_newsletter_user_logs)
+0002.545 () Atomic restore: renaming new table (vy_newsletter_user_logs) to final table name (wpa7_newsletter_user_logs)
+0002.549 () Search and replacing table: wpa7_newsletter_user_logs: rows: 3
+0002.549 () Processing table (InnoDB): wpkb_nextend2_image_storage - will restore as: vy_nextend2_image_storage
+0002.568 () Atomic restore: dropping original table (wpa7_nextend2_image_storage)
+0002.568 () Atomic restore: renaming new table (vy_nextend2_image_storage) to final table name (wpa7_nextend2_image_storage)
+0002.572 () Search and replacing table: wpa7_nextend2_image_storage: rows: 6
+0002.573 () Processing table (InnoDB): wpkb_nextend2_section_storage - will restore as: vy_nextend2_section_storage
+0002.597 () Atomic restore: dropping original table (wpa7_nextend2_section_storage)
+0002.597 () Atomic restore: renaming new table (vy_nextend2_section_storage) to final table name (wpa7_nextend2_section_storage)
+0002.610 () Search and replacing table: wpa7_nextend2_section_storage: rows: 2
+0002.610 () Processing table (InnoDB): wpkb_nextend2_smartslider3_generators - will restore as: vy_nextend2_smartslider3_generators
+0002.634 () Atomic restore: dropping original table (wpa7_nextend2_smartslider3_generators)
+0002.634 () Atomic restore: renaming new table (vy_nextend2_smartslider3_generators) to final table name (wpa7_nextend2_smartslider3_generators)
+0002.644 () Search and replacing table: wpa7_nextend2_smartslider3_generators: rows: 0
+0002.644 () Processing table (InnoDB): wpkb_nextend2_smartslider3_sliders - will restore as: vy_nextend2_smartslider3_sliders
+0002.696 () Atomic restore: dropping original table (wpa7_nextend2_smartslider3_sliders)
+0002.696 () Atomic restore: renaming new table (vy_nextend2_smartslider3_sliders) to final table name (wpa7_nextend2_smartslider3_sliders)
+0002.703 () Search and replacing table: wpa7_nextend2_smartslider3_sliders: rows: 3
+0002.705 () Processing table (InnoDB): wpkb_nextend2_smartslider3_sliders_xref - will restore as: vy_nextend2_smartslider3_sliders_xref
+0002.722 () Atomic restore: dropping original table (wpa7_nextend2_smartslider3_sliders_xref)
+0002.722 () Atomic restore: renaming new table (vy_nextend2_smartslider3_sliders_xref) to final table name (wpa7_nextend2_smartslider3_sliders_xref)
+0002.729 () Search and replacing table: wpa7_nextend2_smartslider3_sliders_xref: rows: 2
+0002.729 () Processing table (InnoDB): wpkb_nextend2_smartslider3_slides - will restore as: vy_nextend2_smartslider3_slides
+0002.767 () Database queries processed: 150 in 2.70 seconds
+0002.767 () Atomic restore: dropping original table (wpa7_nextend2_smartslider3_slides)
+0002.767 () Atomic restore: renaming new table (vy_nextend2_smartslider3_slides) to final table name (wpa7_nextend2_smartslider3_slides)
+0002.773 () Search and replacing table: wpa7_nextend2_smartslider3_slides: rows: 5
+0002.776 () Processing table (InnoDB): wpkb_pmpro_discount_codes - will restore as: vy_pmpro_discount_codes
+0002.810 () Atomic restore: dropping original table (wpa7_pmpro_discount_codes)
+0002.811 () Atomic restore: renaming new table (vy_pmpro_discount_codes) to final table name (wpa7_pmpro_discount_codes)
+0002.819 () Search and replacing table: wpa7_pmpro_discount_codes: rows: 0
+0002.819 () Processing table (InnoDB): wpkb_pmpro_discount_codes_levels - will restore as: vy_pmpro_discount_codes_levels
+0002.840 () Atomic restore: dropping original table (wpa7_pmpro_discount_codes_levels)
+0002.840 () Atomic restore: renaming new table (vy_pmpro_discount_codes_levels) to final table name (wpa7_pmpro_discount_codes_levels)
+0002.847 () Search and replacing table: wpa7_pmpro_discount_codes_levels: rows: 0
+0002.848 () Processing table (InnoDB): wpkb_pmpro_discount_codes_uses - will restore as: vy_pmpro_discount_codes_uses
+0002.865 () Atomic restore: dropping original table (wpa7_pmpro_discount_codes_uses)
+0002.866 () Atomic restore: renaming new table (vy_pmpro_discount_codes_uses) to final table name (wpa7_pmpro_discount_codes_uses)
+0002.883 () Search and replacing table: wpa7_pmpro_discount_codes_uses: rows: 0
+0002.883 () Processing table (InnoDB): wpkb_pmpro_membership_levelmeta - will restore as: vy_pmpro_membership_levelmeta
+0002.901 () Atomic restore: dropping original table (wpa7_pmpro_membership_levelmeta)
+0002.901 () Atomic restore: renaming new table (vy_pmpro_membership_levelmeta) to final table name (wpa7_pmpro_membership_levelmeta)
+0002.907 () Search and replacing table: wpa7_pmpro_membership_levelmeta: rows: 0
+0002.908 () Processing table (InnoDB): wpkb_pmpro_membership_levels - will restore as: vy_pmpro_membership_levels
+0002.930 () Atomic restore: dropping original table (wpa7_pmpro_membership_levels)
+0002.934 () Atomic restore: renaming new table (vy_pmpro_membership_levels) to final table name (wpa7_pmpro_membership_levels)
+0002.945 () Search and replacing table: wpa7_pmpro_membership_levels: rows: 0
+0002.945 () Processing table (InnoDB): wpkb_pmpro_membership_ordermeta - will restore as: vy_pmpro_membership_ordermeta
+0002.968 () Atomic restore: dropping original table (wpa7_pmpro_membership_ordermeta)
+0002.968 () Atomic restore: renaming new table (vy_pmpro_membership_ordermeta) to final table name (wpa7_pmpro_membership_ordermeta)
+0002.973 () Search and replacing table: wpa7_pmpro_membership_ordermeta: rows: 0
+0002.973 () Processing table (InnoDB): wpkb_pmpro_membership_orders - will restore as: vy_pmpro_membership_orders
+0003.005 () Atomic restore: dropping original table (wpa7_pmpro_membership_orders)
+0003.005 () Atomic restore: renaming new table (vy_pmpro_membership_orders) to final table name (wpa7_pmpro_membership_orders)
+0003.010 () Search and replacing table: wpa7_pmpro_membership_orders: rows: 0
+0003.010 () Processing table (InnoDB): wpkb_pmpro_memberships_categories - will restore as: vy_pmpro_memberships_categories
+0003.026 () Atomic restore: dropping original table (wpa7_pmpro_memberships_categories)
+0003.027 () Atomic restore: renaming new table (vy_pmpro_memberships_categories) to final table name (wpa7_pmpro_memberships_categories)
+0003.031 () Search and replacing table: wpa7_pmpro_memberships_categories: rows: 0
+0003.031 () Processing table (InnoDB): wpkb_pmpro_memberships_pages - will restore as: vy_pmpro_memberships_pages
+0003.049 () Atomic restore: dropping original table (wpa7_pmpro_memberships_pages)
+0003.049 () Atomic restore: renaming new table (vy_pmpro_memberships_pages) to final table name (wpa7_pmpro_memberships_pages)
+0003.057 () Search and replacing table: wpa7_pmpro_memberships_pages: rows: 0
+0003.058 () Processing table (InnoDB): wpkb_pmpro_memberships_users - will restore as: vy_pmpro_memberships_users
+0003.081 () Atomic restore: dropping original table (wpa7_pmpro_memberships_users)
+0003.082 () Atomic restore: renaming new table (vy_pmpro_memberships_users) to final table name (wpa7_pmpro_memberships_users)
+0003.085 () Search and replacing table: wpa7_pmpro_memberships_users: rows: 0
+0003.085 () Processing table (InnoDB): wpkb_revslider_css - will restore as: vy_revslider_css
+0003.123 () Atomic restore: dropping original table (wpa7_revslider_css)
+0003.123 () Atomic restore: renaming new table (vy_revslider_css) to final table name (wpa7_revslider_css)
+0003.127 () Search and replacing table: wpa7_revslider_css: rows: 109
+0003.134 () Processing table (InnoDB): wpkb_revslider_css_bkp - will restore as: vy_revslider_css_bkp
+0003.152 () Atomic restore: dropping original table (wpa7_revslider_css_bkp)
+0003.152 () Atomic restore: renaming new table (vy_revslider_css_bkp) to final table name (wpa7_revslider_css_bkp)
+0003.156 () Search and replacing table: wpa7_revslider_css_bkp: rows: 47
+0003.157 () Processing table (InnoDB): wpkb_revslider_layer_animations - will restore as: vy_revslider_layer_animations
+0003.173 () Atomic restore: dropping original table (wpa7_revslider_layer_animations)
+0003.174 () Atomic restore: renaming new table (vy_revslider_layer_animations) to final table name (wpa7_revslider_layer_animations)
+0003.182 () Search and replacing table: wpa7_revslider_layer_animations: rows: 0
+0003.182 () Processing table (InnoDB): wpkb_revslider_layer_animations_bkp - will restore as: vy_revslider_layer_animations_bkp
+0003.200 () Atomic restore: dropping original table (wpa7_revslider_layer_animations_bkp)
+0003.201 () Atomic restore: renaming new table (vy_revslider_layer_animations_bkp) to final table name (wpa7_revslider_layer_animations_bkp)
+0003.208 () Search and replacing table: wpa7_revslider_layer_animations_bkp: rows: 0
+0003.208 () Processing table (InnoDB): wpkb_revslider_navigations - will restore as: vy_revslider_navigations
+0003.227 () Atomic restore: dropping original table (wpa7_revslider_navigations)
+0003.227 () Atomic restore: renaming new table (vy_revslider_navigations) to final table name (wpa7_revslider_navigations)
+0003.231 () Search and replacing table: wpa7_revslider_navigations: rows: 1
+0003.231 () Processing table (InnoDB): wpkb_revslider_navigations_bkp - will restore as: vy_revslider_navigations_bkp
+0003.246 () Atomic restore: dropping original table (wpa7_revslider_navigations_bkp)
+0003.246 () Atomic restore: renaming new table (vy_revslider_navigations_bkp) to final table name (wpa7_revslider_navigations_bkp)
+0003.250 () Search and replacing table: wpa7_revslider_navigations_bkp: rows: 0
+0003.250 () Processing table (InnoDB): wpkb_revslider_sliders - will restore as: vy_revslider_sliders
+0003.270 () Atomic restore: dropping original table (wpa7_revslider_sliders)
+0003.270 () Atomic restore: renaming new table (vy_revslider_sliders) to final table name (wpa7_revslider_sliders)
+0003.276 () Search and replacing table: wpa7_revslider_sliders: rows: 3
+0003.285 () Processing table (InnoDB): wpkb_revslider_sliders_bkp - will restore as: vy_revslider_sliders_bkp
+0003.305 () Atomic restore: dropping original table (wpa7_revslider_sliders_bkp)
+0003.305 () Atomic restore: renaming new table (vy_revslider_sliders_bkp) to final table name (wpa7_revslider_sliders_bkp)
+0003.318 () Search and replacing table: wpa7_revslider_sliders_bkp: rows: 0
+0003.318 () Processing table (InnoDB): wpkb_revslider_slides - will restore as: vy_revslider_slides
+0003.333 () Atomic restore: dropping original table (wpa7_revslider_slides)
+0003.333 () Atomic restore: renaming new table (vy_revslider_slides) to final table name (wpa7_revslider_slides)
+0003.356 () Search and replacing table: wpa7_revslider_slides: rows: 8
+0003.364 () Processing table (InnoDB): wpkb_revslider_slides_bkp - will restore as: vy_revslider_slides_bkp
+0003.383 () Atomic restore: dropping original table (wpa7_revslider_slides_bkp)
+0003.384 () Atomic restore: renaming new table (vy_revslider_slides_bkp) to final table name (wpa7_revslider_slides_bkp)
+0003.391 () Search and replacing table: wpa7_revslider_slides_bkp: rows: 0
+0003.392 () Processing table (InnoDB): wpkb_revslider_static_slides - will restore as: vy_revslider_static_slides
+0003.418 () Atomic restore: dropping original table (wpa7_revslider_static_slides)
+0003.418 () Atomic restore: renaming new table (vy_revslider_static_slides) to final table name (wpa7_revslider_static_slides)
+0003.431 () Search and replacing table: wpa7_revslider_static_slides: rows: 3
+0003.435 () Processing table (InnoDB): wpkb_revslider_static_slides_bkp - will restore as: vy_revslider_static_slides_bkp
+0003.456 () Database queries processed: 200 in 3.38 seconds
+0003.456 () Atomic restore: dropping original table (wpa7_revslider_static_slides_bkp)
+0003.456 () Atomic restore: renaming new table (vy_revslider_static_slides_bkp) to final table name (wpa7_revslider_static_slides_bkp)
+0003.466 () Search and replacing table: wpa7_revslider_static_slides_bkp: rows: 0
+0003.466 () Processing table (InnoDB): wpkb_wc_admin_note_actions - will restore as: vy_wc_admin_note_actions
+0003.485 () Atomic restore: dropping original table (wpa7_wc_admin_note_actions)
+0003.485 () Atomic restore: renaming new table (vy_wc_admin_note_actions) to final table name (wpa7_wc_admin_note_actions)
+0003.491 () Search and replacing table: wpa7_wc_admin_note_actions: rows: 172
+0003.499 () Processing table (InnoDB): wpkb_wc_admin_notes - will restore as: vy_wc_admin_notes
+0003.528 () Atomic restore: dropping original table (wpa7_wc_admin_notes)
+0003.528 () Atomic restore: renaming new table (vy_wc_admin_notes) to final table name (wpa7_wc_admin_notes)
+0003.533 () Search and replacing table: wpa7_wc_admin_notes: rows: 146
+0003.559 () Processing table (InnoDB): wpkb_wc_customer_lookup - will restore as: vy_wc_customer_lookup
+0003.579 () Atomic restore: dropping original table (wpa7_wc_customer_lookup)
+0003.579 () Atomic restore: renaming new table (vy_wc_customer_lookup) to final table name (wpa7_wc_customer_lookup)
+0003.589 () Search and replacing table: wpa7_wc_customer_lookup: rows: 0
+0003.589 () Processing table (InnoDB): wpkb_wc_download_log - will restore as: wpa7_wc_download_log
+0003.609 () Search and replacing table: wpa7_wc_download_log: rows: 0
+0003.609 () Processing table (InnoDB): wpkb_wc_order_coupon_lookup - will restore as: vy_wc_order_coupon_lookup
+0003.626 () Atomic restore: dropping original table (wpa7_wc_order_coupon_lookup)
+0003.626 () Atomic restore: renaming new table (vy_wc_order_coupon_lookup) to final table name (wpa7_wc_order_coupon_lookup)
+0003.634 () Search and replacing table: wpa7_wc_order_coupon_lookup: rows: 0
+0003.634 () Processing table (InnoDB): wpkb_wc_order_product_lookup - will restore as: vy_wc_order_product_lookup
+0003.651 () Atomic restore: dropping original table (wpa7_wc_order_product_lookup)
+0003.651 () Atomic restore: renaming new table (vy_wc_order_product_lookup) to final table name (wpa7_wc_order_product_lookup)
+0003.656 () Search and replacing table: wpa7_wc_order_product_lookup: rows: 0
+0003.656 () Processing table (InnoDB): wpkb_wc_order_stats - will restore as: vy_wc_order_stats
+0003.673 () Atomic restore: dropping original table (wpa7_wc_order_stats)
+0003.673 () Atomic restore: renaming new table (vy_wc_order_stats) to final table name (wpa7_wc_order_stats)
+0003.678 () Search and replacing table: wpa7_wc_order_stats: rows: 0
+0003.678 () Processing table (InnoDB): wpkb_wc_order_tax_lookup - will restore as: vy_wc_order_tax_lookup
+0003.708 () Atomic restore: dropping original table (wpa7_wc_order_tax_lookup)
+0003.712 () Atomic restore: renaming new table (vy_wc_order_tax_lookup) to final table name (wpa7_wc_order_tax_lookup)
+0003.730 () Search and replacing table: wpa7_wc_order_tax_lookup: rows: 0
+0003.730 () Processing table (InnoDB): wpkb_wc_webhooks - will restore as: vy_wc_webhooks
+0003.754 () Atomic restore: dropping original table (wpa7_wc_webhooks)
+0003.754 () Atomic restore: renaming new table (vy_wc_webhooks) to final table name (wpa7_wc_webhooks)
+0003.761 () Search and replacing table: wpa7_wc_webhooks: rows: 0
+0003.761 () Processing table (InnoDB): wpkb_woocommerce_api_keys - will restore as: vy_woocommerce_api_keys
+0003.784 () Atomic restore: dropping original table (wpa7_woocommerce_api_keys)
+0003.784 () Atomic restore: renaming new table (vy_woocommerce_api_keys) to final table name (wpa7_woocommerce_api_keys)
+0003.794 () Search and replacing table: wpa7_woocommerce_api_keys: rows: 0
+0003.794 () Processing table (InnoDB): wpkb_woocommerce_attribute_taxonomies - will restore as: vy_woocommerce_attribute_taxonomies
+0003.813 () Atomic restore: dropping original table (wpa7_woocommerce_attribute_taxonomies)
+0003.813 () Atomic restore: renaming new table (vy_woocommerce_attribute_taxonomies) to final table name (wpa7_woocommerce_attribute_taxonomies)
+0003.822 () Search and replacing table: wpa7_woocommerce_attribute_taxonomies: rows: 0
+0003.822 () Processing table (InnoDB): wpkb_woocommerce_downloadable_product_permissions - will restore as: vy_woocommerce_downloadable_product_permissions
+0003.843 () Atomic restore: dropping original table (wpa7_woocommerce_downloadable_product_permissions)
+0003.843 () Atomic restore: renaming new table (vy_woocommerce_downloadable_product_permissions) to final table name (wpa7_woocommerce_downloadable_product_permissions)
+0003.848 () Search and replacing table: wpa7_woocommerce_downloadable_product_permissions: rows: 0
+0003.848 () Processing table (InnoDB): wpkb_woocommerce_log - will restore as: vy_woocommerce_log
+0003.865 () Atomic restore: dropping original table (wpa7_woocommerce_log)
+0003.866 () Atomic restore: renaming new table (vy_woocommerce_log) to final table name (wpa7_woocommerce_log)
+0003.871 () Search and replacing table: wpa7_woocommerce_log: rows: 0
+0003.871 () Processing table (InnoDB): wpkb_woocommerce_order_items - will restore as: vy_woocommerce_order_items
+0003.889 () Atomic restore: dropping original table (wpa7_woocommerce_order_items)
+0003.890 () Atomic restore: renaming new table (vy_woocommerce_order_items) to final table name (wpa7_woocommerce_order_items)
+0003.893 () Skipping this table: data in this table (wpa7_woocommerce_order_items) should not be search/replaced
+0003.893 () Processing table (InnoDB): wpkb_woocommerce_payment_tokens - will restore as: vy_woocommerce_payment_tokens
+0003.911 () Atomic restore: dropping original table (wpa7_woocommerce_payment_tokens)
+0003.911 () Atomic restore: renaming new table (vy_woocommerce_payment_tokens) to final table name (wpa7_woocommerce_payment_tokens)
+0003.921 () Search and replacing table: wpa7_woocommerce_payment_tokens: rows: 0
+0003.921 () Processing table (InnoDB): wpkb_woocommerce_sessions - will restore as: vy_woocommerce_sessions
+0003.939 () Atomic restore: dropping original table (wpa7_woocommerce_sessions)
+0003.939 () Atomic restore: renaming new table (vy_woocommerce_sessions) to final table name (wpa7_woocommerce_sessions)
+0003.947 () Skipping this table: data in this table (wpa7_woocommerce_sessions) should not be search/replaced
+0003.947 () Processing table (InnoDB): wpkb_woocommerce_shipping_zone_locations - will restore as: vy_woocommerce_shipping_zone_locations
+0003.972 () Atomic restore: dropping original table (wpa7_woocommerce_shipping_zone_locations)
+0003.973 () Atomic restore: renaming new table (vy_woocommerce_shipping_zone_locations) to final table name (wpa7_woocommerce_shipping_zone_locations)
+0003.980 () Search and replacing table: wpa7_woocommerce_shipping_zone_locations: rows: 0
+0003.980 () Processing table (InnoDB): wpkb_woocommerce_shipping_zone_methods - will restore as: vy_woocommerce_shipping_zone_methods
+0003.996 () Atomic restore: dropping original table (wpa7_woocommerce_shipping_zone_methods)
+0003.996 () Atomic restore: renaming new table (vy_woocommerce_shipping_zone_methods) to final table name (wpa7_woocommerce_shipping_zone_methods)
+0004.002 () Search and replacing table: wpa7_woocommerce_shipping_zone_methods: rows: 0
+0004.002 () Processing table (InnoDB): wpkb_woocommerce_shipping_zones - will restore as: vy_woocommerce_shipping_zones
+0004.017 () Atomic restore: dropping original table (wpa7_woocommerce_shipping_zones)
+0004.017 () Atomic restore: renaming new table (vy_woocommerce_shipping_zones) to final table name (wpa7_woocommerce_shipping_zones)
+0004.024 () Search and replacing table: wpa7_woocommerce_shipping_zones: rows: 0
+0004.024 () Processing table (InnoDB): wpkb_woocommerce_tax_rate_locations - will restore as: vy_woocommerce_tax_rate_locations
+0004.047 () Atomic restore: dropping original table (wpa7_woocommerce_tax_rate_locations)
+0004.048 () Atomic restore: renaming new table (vy_woocommerce_tax_rate_locations) to final table name (wpa7_woocommerce_tax_rate_locations)
+0004.055 () Search and replacing table: wpa7_woocommerce_tax_rate_locations: rows: 0
+0004.055 () Processing table (InnoDB): wpkb_woocommerce_tax_rates - will restore as: vy_woocommerce_tax_rates
+0004.086 () Atomic restore: dropping original table (wpa7_woocommerce_tax_rates)
+0004.086 () Atomic restore: renaming new table (vy_woocommerce_tax_rates) to final table name (wpa7_woocommerce_tax_rates)
+0004.093 () Search and replacing table: wpa7_woocommerce_tax_rates: rows: 0
+0004.093 () Processing table (InnoDB): wpkb_wpforms_tasks_meta - will restore as: vy_wpforms_tasks_meta
+0004.110 () Atomic restore: dropping original table (wpa7_wpforms_tasks_meta)
+0004.119 () Atomic restore: renaming new table (vy_wpforms_tasks_meta) to final table name (wpa7_wpforms_tasks_meta)
+0004.128 () Search and replacing table: wpa7_wpforms_tasks_meta: rows: 83
+0004.129 () Processing table (InnoDB): wpkb_yoast_indexable - will restore as: vy_yoast_indexable
+0004.240 () Database queries processed: 250 in 4.17 seconds
+0004.240 () Atomic restore: dropping original table (wpa7_yoast_indexable)
+0004.240 () Atomic restore: renaming new table (vy_yoast_indexable) to final table name (wpa7_yoast_indexable)
+0004.246 () Search and replacing table: wpa7_yoast_indexable: rows: 790
+0004.313 () Processing table (InnoDB): wpkb_yoast_indexable_hierarchy - will restore as: vy_yoast_indexable_hierarchy
+0004.350 () Atomic restore: dropping original table (wpa7_yoast_indexable_hierarchy)
+0004.350 () Atomic restore: renaming new table (vy_yoast_indexable_hierarchy) to final table name (wpa7_yoast_indexable_hierarchy)
+0004.360 () Search and replacing table: wpa7_yoast_indexable_hierarchy: rows: 532
+0004.366 () Processing table (InnoDB): wpkb_yoast_migrations - will restore as: vy_yoast_migrations
+0004.388 () Atomic restore: dropping original table (wpa7_yoast_migrations)
+0004.388 () Atomic restore: renaming new table (vy_yoast_migrations) to final table name (wpa7_yoast_migrations)
+0004.393 () Search and replacing table: wpa7_yoast_migrations: rows: 21
+0004.393 () Processing table (InnoDB): wpkb_yoast_primary_term - will restore as: vy_yoast_primary_term
+0004.418 () Atomic restore: dropping original table (wpa7_yoast_primary_term)
+0004.418 () Atomic restore: renaming new table (vy_yoast_primary_term) to final table name (wpa7_yoast_primary_term)
+0004.426 () Search and replacing table: wpa7_yoast_primary_term: rows: 1
+0004.426 () Processing table (InnoDB): wpkb_yoast_seo_links - will restore as: vy_yoast_seo_links
+0004.488 () UpdraftVault: this site has not been connected - check your settings
+0007.170 () Unlocking database and leaving maintenance mode
+0007.170 () Disabling Maintenance mode&#8230;
+0007.170 () Atomic restore: dropping original table (wpa7_yoast_seo_links)
+0007.170 () Atomic restore: renaming new table (vy_yoast_seo_links) to final table name (wpa7_yoast_seo_links)
+0007.175 () Search and replacing table: wpa7_yoast_seo_links: rows: 796
+0007.186 () Finished: lines processed: 265 in 7.11 seconds
+0007.187 () Cleaning up rubbish...
+0007.187 () Begin search and replace (updraftplus_restored_db)
+0007.187 () [Database-replace-site-url] Database: search and replace site URL
+0007.187 () Database search and replace: replace https://mwesukicharityorganisation.org in backup dump with https://abdullahotyanga.com
+0007.187 () Database search and replace: replace http://www.mwesukicharityorganisation.org in backup dump with https://abdullahotyanga.com
+0007.187 () Database search and replace: replace http://mwesukicharityorganisation.org in backup dump with https://abdullahotyanga.com
+0007.187 () Database search and replace: replace https://www.mwesukicharityorganisation.org in backup dump with https://abdullahotyanga.com
+0007.187 () Database search and replace: replace /home3/novus6sk/mwesukicharityorganisation.org in backup dump with /home3/novus6sk/abdullahotyanga.com
+0007.188 () Search and replacing table: wpa7_actionscheduler_actions: already done
+0007.188 () Search and replacing table: wpa7_actionscheduler_claims: already done
+0007.188 () Search and replacing table: wpa7_actionscheduler_groups: already done
+0007.188 () Search and replacing table: wpa7_actionscheduler_logs: already done
+0007.188 () Search and replacing table: wpa7_addonlibrary_addons: already done
+0007.188 () Search and replacing table: wpa7_addonlibrary_categories: already done
+0007.188 () Search and replacing table: wpa7_cartflows_ca_cart_abandonment: already done
+0007.188 () Search and replacing table: wpa7_cartflows_ca_email_history: already done
+0007.188 () Search and replacing table: wpa7_cartflows_ca_email_templates: already done
+0007.188 () Search and replacing table: wpa7_cartflows_ca_email_templates_meta: already done
+0007.188 () Search and replacing table: wpa7_cas_plugin: already done
+0007.188 () Search and replacing table: wpa7_commentmeta: already done
+0007.188 () Search and replacing table: wpa7_comments: already done
+0007.188 () Search and replacing table: wpa7_e_events: already done
+0007.188 () Search and replacing table: wpa7_learnpress_order_itemmeta: already done
+0007.188 () Search and replacing table: wpa7_learnpress_order_items: already done
+0007.188 () Search and replacing table: wpa7_learnpress_question_answermeta: already done
+0007.188 () Search and replacing table: wpa7_learnpress_question_answers: already done
+0007.188 () Search and replacing table: wpa7_learnpress_quiz_questions: already done
+0007.188 () Search and replacing table: wpa7_learnpress_review_logs: already done
+0007.188 () Search and replacing table: wpa7_learnpress_section_items: already done
+0007.188 () Search and replacing table: wpa7_learnpress_sections: already done
+0007.188 () Search and replacing table: wpa7_learnpress_sessions: already done
+0007.188 () Search and replacing table: wpa7_learnpress_user_item_results: already done
+0007.188 () Search and replacing table: wpa7_learnpress_user_itemmeta: already done
+0007.189 () Search and replacing table: wpa7_learnpress_user_items: already done
+0007.189 () Search and replacing table: wpa7_links: already done
+0007.189 () Search and replacing table: wpa7_newsletter: already done
+0007.189 () Search and replacing table: wpa7_newsletter_emails: already done
+0007.189 () Search and replacing table: wpa7_newsletter_sent: already done
+0007.189 () Search and replacing table: wpa7_newsletter_stats: already done
+0007.189 () Search and replacing table: wpa7_newsletter_user_logs: already done
+0007.189 () Search and replacing table: wpa7_nextend2_image_storage: already done
+0007.189 () Search and replacing table: wpa7_nextend2_section_storage: already done
+0007.189 () Search and replacing table: wpa7_nextend2_smartslider3_generators: already done
+0007.189 () Search and replacing table: wpa7_nextend2_smartslider3_sliders: already done
+0007.189 () Search and replacing table: wpa7_nextend2_smartslider3_sliders_xref: already done
+0007.189 () Search and replacing table: wpa7_nextend2_smartslider3_slides: already done
+0007.189 () Search and replacing table: wpa7_options: already done
+0007.189 () Search and replacing table: wpa7_pmpro_discount_codes: already done
+0007.189 () Search and replacing table: wpa7_pmpro_discount_codes_levels: already done
+0007.189 () Search and replacing table: wpa7_pmpro_discount_codes_uses: already done
+0007.189 () Search and replacing table: wpa7_pmpro_membership_levelmeta: already done
+0007.189 () Search and replacing table: wpa7_pmpro_membership_levels: already done
+0007.189 () Search and replacing table: wpa7_pmpro_membership_ordermeta: already done
+0007.189 () Search and replacing table: wpa7_pmpro_membership_orders: already done
+0007.189 () Search and replacing table: wpa7_pmpro_memberships_categories: already done
+0007.189 () Search and replacing table: wpa7_pmpro_memberships_pages: already done
+0007.189 () Search and replacing table: wpa7_pmpro_memberships_users: already done
+0007.189 () Search and replacing table: wpa7_postmeta: already done
+0007.189 () Search and replacing table: wpa7_posts: already done
+0007.189 () Search and replacing table: wpa7_revslider_css: already done
+0007.189 () Search and replacing table: wpa7_revslider_css_bkp: already done
+0007.189 () Search and replacing table: wpa7_revslider_layer_animations: already done
+0007.189 () Search and replacing table: wpa7_revslider_layer_animations_bkp: already done
+0007.189 () Search and replacing table: wpa7_revslider_navigations: already done
+0007.189 () Search and replacing table: wpa7_revslider_navigations_bkp: already done
+0007.189 () Search and replacing table: wpa7_revslider_sliders: already done
+0007.189 () Search and replacing table: wpa7_revslider_sliders_bkp: already done
+0007.189 () Search and replacing table: wpa7_revslider_slides: already done
+0007.189 () Search and replacing table: wpa7_revslider_slides_bkp: already done
+0007.189 () Search and replacing table: wpa7_revslider_static_slides: already done
+0007.189 () Search and replacing table: wpa7_revslider_static_slides_bkp: already done
+0007.189 () Search and replacing table: wpa7_term_relationships: already done
+0007.189 () Search and replacing table: wpa7_term_taxonomy: already done
+0007.189 () Search and replacing table: wpa7_termmeta: already done
+0007.189 () Search and replacing table: wpa7_terms: already done
+0007.189 () Search and replacing table: wpa7_usermeta: already done
+0007.189 () Search and replacing table: wpa7_users: already done
+0007.189 () Search and replacing table: wpa7_wc_admin_note_actions: already done
+0007.189 () Search and replacing table: wpa7_wc_admin_notes: already done
+0007.189 () Search and replacing table: wpa7_wc_category_lookup: already done
+0007.189 () Search and replacing table: wpa7_wc_customer_lookup: already done
+0007.189 () Search and replacing table: wpa7_wc_download_log: already done
+0007.189 () Search and replacing table: wpa7_wc_order_coupon_lookup: already done
+0007.189 () Search and replacing table: wpa7_wc_order_product_lookup: already done
+0007.189 () Search and replacing table: wpa7_wc_order_stats: already done
+0007.190 () Search and replacing table: wpa7_wc_order_tax_lookup: already done
+0007.190 () Search and replacing table: wpa7_wc_product_meta_lookup: already done
+0007.190 () Search and replacing table: wpa7_wc_reserved_stock: already done
+0007.190 () Search and replacing table: wpa7_wc_tax_rate_classes: already done
+0007.190 () Search and replacing table: wpa7_wc_webhooks: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_api_keys: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_attribute_taxonomies: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_downloadable_product_permissions: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_log: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_order_itemmeta: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_order_items: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_payment_tokenmeta: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_payment_tokens: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_sessions: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_shipping_zone_locations: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_shipping_zone_methods: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_shipping_zones: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_tax_rate_locations: already done
+0007.190 () Search and replacing table: wpa7_woocommerce_tax_rates: already done
+0007.190 () Search and replacing table: wpa7_wpforms_tasks_meta: already done
+0007.190 () Search and replacing table: wpa7_yoast_indexable: already done
+0007.190 () Search and replacing table: wpa7_yoast_indexable_hierarchy: already done
+0007.190 () Search and replacing table: wpa7_yoast_migrations: already done
+0007.190 () Search and replacing table: wpa7_yoast_primary_term: already done
+0007.190 () Search and replacing table: wpa7_yoast_seo_links: already done
+0007.191 () Search and replacing table: wpa7_nfd_data_event_queue: rows: 1
+0007.193 () Search and replacing table: wpa7_wpforms_logs: rows: 0
+0007.195 () Search and replacing table: wpa7_wpforms_payment_meta: rows: 0
+0007.197 () Search and replacing table: wpa7_wpforms_payments: rows: 0
+0007.202 () Entity: plugins
+0007.202 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:54:"/home3/novus6sk/abdullahotyanga.com/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0007.202 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-plugins.zip, 24.4 MB)
+0007.203 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-plugins.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/98127e1f/ using UpdraftPlus_ZipArchive, starting index 0
+0007.480 () Unzip progress: 2429 out of 8934 files (2.5 KB, plugins/hello.php)
+0007.739 () Unzip progress: 3430 out of 8934 files (12.9 MB, plugins/learnpress-course-review/languages/learnpress-course-review.pot)
+0008.031 () Unzip progress: 4431 out of 8934 files (27.1 MB, plugins/wp-webinarsystem/wpws-js/build/static/media/.htaccess)
+0008.332 () Unzip progress: 5432 out of 8934 files (48 MB, plugins/js_composer/assets/vc/vc-element-icons/element-icon-post-date.svg)
+0008.553 () Unzip progress: 6433 out of 8934 files (59.2 MB, plugins/ecommerce-social-login-social-sharing-by-miniorange/lang/miniorange-login-openid.pot)
+0008.766 () Unzip progress: 7434 out of 8934 files (64.5 MB, plugins/woocommerce/packages/woocommerce-admin/vendor/automattic/jetpack-autoloader/src/autoload.php)
+0008.981 () Unzip progress: 8435 out of 8934 files (67.8 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/js/payment-method-extensions/payment-methods/bacs/index.js)
+0009.103 () Unzip progress: 8934 out of 8934 files (72.5 MB, plugins/woocommerce/packages/woocommerce-blocks/build/active-filters.js)
+0009.111 () Moving old data: filesystem method / updraft_dir is potentially possible
+0009.111 () Moving old data: can potentially use wp_filesystem method / -old
+0009.111 () Moving old data out of the way...
+0009.318 () Top-level entities being moved: hello.php, wpforms-lite, optinmonster, mojo-marketplace-wp-plugin, akismet, jetpack, updraftplus, index.php
+0009.320 () Moving unpacked backup into place...
+0009.514 () Top-level entities being moved: hello.php, learnpress-course-review, learnpress-prerequisites-courses, .installer.txt, eduma-demo-data, thim-core, wp-webinarsystem, js_composer, thim-our-team, .htaccess, black-studio-tinymce-widget, ecommerce-social-login-social-sharing-by-miniorange, duplicate-wp-page-post, contact-form-7, woocommerce, click-to-chat-for-whatsapp, learnpress, classic-editor, thim-testimonials, loco-translate, learnpress-collections, wp-events-manager, learnpress-offline-payment, learnpress-import-export, mailchimp-for-wp, akismet, anywhere-elementor, filester, wp-reset, manca-lp-wc-integration, 4rqqp450, miniorange-login-openid, thim-twitter, learnpress-buddypress, learnpress-wishlist, revslider, elementor, duplicate-page, updraftplus, widget-logic, paid-memberships-pro, tp-portfolio, learnpress-co-instructor
+0009.522 () Cleaning up rubbish...
+0009.524 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-plugins2.zip, type=plugins, info=a:3:{s:4:"path";s:54:"/home3/novus6sk/abdullahotyanga.com/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0009.524 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-plugins2.zip, 24 MB)
+0009.524 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-plugins2.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/68edb599/ using UpdraftPlus_ZipArchive, starting index 0
+0010.027 () Unzip progress: 1002 out of 6224 files (7.3 MB, plugins/learnpress/inc/jwt/rest-api/version1/class-lp-rest-users-v1-controller.php)
+0010.356 () Unzip progress: 2003 out of 6224 files (21.4 MB, plugins/mailchimp-for-wp/assets/src/js/admin/notices.js)
+0010.567 () Unzip progress: 3004 out of 6224 files (25.7 MB, plugins/miniorange-login-openid/includes/images/icons/disq.png)
+0010.810 () Unzip progress: 4005 out of 6224 files (38.6 MB, plugins/revslider/public/assets/assets/svg/busy-icons-svg/hand-globe.svg)
+0011.054 () Unzip progress: 5006 out of 6224 files (45.3 MB, plugins/elementor/core/logger/loggers/.htaccess)
+0011.422 () Unzip progress: 6007 out of 6224 files (60.3 MB, plugins/elementor/assets/js/app.js)
+0011.485 () Unzip progress: 6224 out of 6224 files (64.5 MB, plugins/elementor/core/logger/loggers/db.php)
+0011.492 () Moving unpacked backup into place...
+0011.590 () Top-level entities being moved: woocommerce, click-to-chat-for-whatsapp, learnpress, classic-editor, thim-testimonials, loco-translate, learnpress-collections, wp-events-manager, learnpress-offline-payment, learnpress-import-export, mailchimp-for-wp, akismet, anywhere-elementor, filester, wp-reset, manca-lp-wc-integration, 4rqqp450, miniorange-login-openid, thim-twitter, learnpress-buddypress, learnpress-wishlist, revslider, error_log, elementor
+0012.538 () Cleaning up rubbish...
+0012.540 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-plugins3.zip, type=plugins, info=a:3:{s:4:"path";s:54:"/home3/novus6sk/abdullahotyanga.com/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0012.540 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-plugins3.zip, 16.6 MB)
+0012.540 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-plugins3.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/55232059/ using UpdraftPlus_ZipArchive, starting index 0
+0012.997 () Unzip progress: 1002 out of 3745 files (27.1 MB, plugins/updraftplus/vendor/aws/aws-crt-php/src/AWS/CRT/HTTP/Message.php)
+0013.403 () Unzip progress: 2003 out of 3745 files (47.2 MB, plugins/updraftplus/includes/class-udrpc.php)
+0013.703 () Unzip progress: 3004 out of 3745 files (51.8 MB, plugins/paid-memberships-pro/includes/lib/Stripe/lib/Stripe.php)
+0013.963 () Unzip progress: 3745 out of 3745 files (60.1 MB, plugins/paid-memberships-pro/includes/lib/Braintree/lib/Braintree/Transaction/CoinbaseDetails.php)
+0013.967 () Moving unpacked backup into place...
+0014.034 () Top-level entities being moved: elementor, duplicate-page, updraftplus, index.php, widget-logic, paid-memberships-pro, tp-portfolio, learnpress-co-instructor
+0014.787 () Cleaning up rubbish...
+0014.789 () Entity: themes
+0014.789 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-themes.zip, type=themes, info=a:3:{s:4:"path";s:53:"/home3/novus6sk/abdullahotyanga.com/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0014.789 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-themes.zip, 23 MB)
+0014.789 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-themes.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/88f64cd0/ using UpdraftPlus_ZipArchive, starting index 0
+0015.084 () Unzip progress: 1002 out of 2337 files (12.9 MB, themes/eduma/assets/sass/eduma/_single.scss)
+0015.386 () Unzip progress: 2003 out of 2337 files (34.3 MB, themes/eduma/learnpress-v3/single-course/section/item-meta.php)
+0015.450 () Unzip progress: 2337 out of 2337 files (35.3 MB, themes/eduma/inc/widgets/countdown-box/tpl/.htaccess)
+0015.455 () Moving old data: filesystem method / updraft_dir is potentially possible
+0015.456 () Moving old data: can potentially use wp_filesystem method / -old
+0015.456 () Moving old data out of the way...
+0015.470 () Top-level entities being moved: twentytwentytwo, twentytwentythree, twentytwentyfour, index.php, sinatra
+0015.471 () Moving unpacked backup into place...
+0015.508 () Top-level entities being moved: twentytwentytwo, .htaccess, rs621836, eduma, eduma.zip, eduma-child-crypto, twentytwenty, twentynineteen, twentytwentyone, index.php
+0015.510 () Cleaning up rubbish...
+0015.513 () Entity: uploads
+0015.513 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/home3/novus6sk/abdullahotyanga.com/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0015.513 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads.zip, 25.1 MB)
+0015.513 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/be30443a/ using UpdraftPlus_ZipArchive, starting index 0
+0015.682 () Unzip progress: 472 out of 472 files (25 MB, uploads/2020/.htaccess)
+0015.686 () Moving old data: filesystem method / updraft_dir is potentially possible
+0015.686 () Moving old data: can potentially use wp_filesystem method / -old
+0015.686 () Moving old data out of the way...
+0015.687 () Moving unpacked backup into place...
+0015.695 () Cleaning up rubbish...
+0015.696 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads2.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/home3/novus6sk/abdullahotyanga.com/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0015.697 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads2.zip, 25 MB)
+0015.697 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads2.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/1c2f8b25/ using UpdraftPlus_ZipArchive, starting index 0
+0016.021 () Unzip progress: 1002 out of 1002 files (25.4 MB, uploads/2013/06/Buschla-100x100.jpg)
+0016.027 () Moving unpacked backup into place...
+0016.236 () Cleaning up rubbish...
+0016.238 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads3.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/home3/novus6sk/abdullahotyanga.com/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0016.238 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads3.zip, 25.1 MB)
+0016.239 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads3.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/f5e599df/ using UpdraftPlus_ZipArchive, starting index 0
+0016.531 () Unzip progress: 959 out of 959 files (25 MB, uploads/2013/06/Bag-fabric-3-1-100x100.jpg)
+0016.537 () Moving unpacked backup into place...
+0016.655 () Cleaning up rubbish...
+0016.656 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads4.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/home3/novus6sk/abdullahotyanga.com/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0016.656 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads4.zip, 25.2 MB)
+0016.656 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads4.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/3d1ea560/ using UpdraftPlus_ZipArchive, starting index 0
+0016.853 () Unzip progress: 541 out of 541 files (25.1 MB, uploads/2015/11/slider-3-768x361.jpg)
+0016.859 () Moving unpacked backup into place...
+0016.951 () Cleaning up rubbish...
+0016.952 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads5.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/home3/novus6sk/abdullahotyanga.com/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0016.952 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads5.zip, 25.2 MB)
+0016.952 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads5.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/d1dfb07b/ using UpdraftPlus_ZipArchive, starting index 0
+0017.126 () Unzip progress: 670 out of 670 files (25 MB, uploads/2015/10/blog-4-150x150.jpg)
+0017.130 () Moving unpacked backup into place...
+0017.219 () Cleaning up rubbish...
+0017.221 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads6.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/home3/novus6sk/abdullahotyanga.com/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0017.221 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads6.zip, 9.3 MB)
+0017.221 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-uploads6.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/f707e01a/ using UpdraftPlus_ZipArchive, starting index 0
+0017.286 () Unzip progress: 200 out of 200 files (9.3 MB, uploads/2022/11/6.jpg)
+0017.289 () Moving unpacked backup into place...
+0017.319 () Cleaning up rubbish...
+0017.321 () Entity: others
+0017.321 () restore_backup(backup_file=backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-others.zip, type=others, info=a:2:{s:4:"path";s:46:"/home3/novus6sk/abdullahotyanga.com/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0017.321 () Unpacking backup... (backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-others.zip, 1.3 MB)
+0017.322 () Unzipping backup_2023-05-29-2115_Mwesuki_Charity_Organisation_3436504ddaea-others.zip to /home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/e5db1dbe/ using UpdraftPlus_ZipArchive, starting index 0
+0017.373 () Unzip progress: 90 out of 90 files (5 MB, uploads-old-old/.htaccess)
+0017.375 () PHP event: code E_WARNING: rename(/home3/novus6sk/abdullahotyanga.com/wp-content/themes-old,/home3/novus6sk/abdullahotyanga.com/wp-content/themes-old-old): Directory not empty (line 4614, wp-content/plugins/updraftplus/restorer.php)
+0017.375 () PHP event: code E_NOTICE: hash_file(): Read of 8192 bytes failed with errno=21 Is a directory (line 1376, wp-content/plugins/updraftplus/restorer.php)
+0017.375 () PHP event: code E_NOTICE: hash_file(): Read of 8192 bytes failed with errno=21 Is a directory (line 1376, wp-content/plugins/updraftplus/restorer.php)
+0017.375 () /home3/novus6sk/abdullahotyanga.com/wp-content/themes-old could not be moved out of the way, but the new version had an identical hash, so the existing version will be left as-is
+0017.376 () PHP event: code E_WARNING: rename(/home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/e5db1dbe/themes-old,/home3/novus6sk/abdullahotyanga.com/wp-content/themes-old): No such file or directory (line 4614, wp-content/plugins/updraftplus/restorer.php)
+0017.376 () PHP event: code E_WARNING: rename(/home3/novus6sk/abdullahotyanga.com/wp-content/plugins-old,/home3/novus6sk/abdullahotyanga.com/wp-content/plugins-old-old): Directory not empty (line 4614, wp-content/plugins/updraftplus/restorer.php)
+0017.376 () PHP event: code E_NOTICE: hash_file(): Read of 8192 bytes failed with errno=21 Is a directory (line 1376, wp-content/plugins/updraftplus/restorer.php)
+0017.376 () PHP event: code E_NOTICE: hash_file(): Read of 8192 bytes failed with errno=21 Is a directory (line 1376, wp-content/plugins/updraftplus/restorer.php)
+0017.376 () /home3/novus6sk/abdullahotyanga.com/wp-content/plugins-old could not be moved out of the way, but the new version had an identical hash, so the existing version will be left as-is
+0017.376 () PHP event: code E_WARNING: rename(/home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/e5db1dbe/plugins-old,/home3/novus6sk/abdullahotyanga.com/wp-content/plugins-old): No such file or directory (line 4614, wp-content/plugins/updraftplus/restorer.php)
+0017.376 () PHP event: code E_WARNING: rename(/home3/novus6sk/abdullahotyanga.com/wp-content/mu-plugins-old,/home3/novus6sk/abdullahotyanga.com/wp-content/mu-plugins-old-old): Directory not empty (line 4614, wp-content/plugins/updraftplus/restorer.php)
+0017.376 () PHP event: code E_NOTICE: hash_file(): Read of 8192 bytes failed with errno=21 Is a directory (line 1376, wp-content/plugins/updraftplus/restorer.php)
+0017.376 () PHP event: code E_NOTICE: hash_file(): Read of 8192 bytes failed with errno=21 Is a directory (line 1376, wp-content/plugins/updraftplus/restorer.php)
+0017.376 () /home3/novus6sk/abdullahotyanga.com/wp-content/mu-plugins-old could not be moved out of the way, but the new version had an identical hash, so the existing version will be left as-is
+0017.377 () PHP event: code E_WARNING: rename(/home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/e5db1dbe/mu-plugins-old,/home3/novus6sk/abdullahotyanga.com/wp-content/mu-plugins-old): No such file or directory (line 4614, wp-content/plugins/updraftplus/restorer.php)
+0017.377 () PHP event: code E_WARNING: rename(/home3/novus6sk/abdullahotyanga.com/wp-content/uploads-old,/home3/novus6sk/abdullahotyanga.com/wp-content/uploads-old-old): Directory not empty (line 4614, wp-content/plugins/updraftplus/restorer.php)
+0017.377 () PHP event: code E_NOTICE: hash_file(): Read of 8192 bytes failed with errno=21 Is a directory (line 1376, wp-content/plugins/updraftplus/restorer.php)
+0017.377 () PHP event: code E_NOTICE: hash_file(): Read of 8192 bytes failed with errno=21 Is a directory (line 1376, wp-content/plugins/updraftplus/restorer.php)
+0017.377 () /home3/novus6sk/abdullahotyanga.com/wp-content/uploads-old could not be moved out of the way, but the new version had an identical hash, so the existing version will be left as-is
+0017.377 () PHP event: code E_WARNING: rename(/home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/e5db1dbe/uploads-old,/home3/novus6sk/abdullahotyanga.com/wp-content/uploads-old): No such file or directory (line 4614, wp-content/plugins/updraftplus/restorer.php)
+0017.377 () Cleaning up rubbish...
+0017.378 () PHP event: code E_WARNING: rmdir(/home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/e5db1dbe): Directory not empty (line 386, wp-admin/includes/class-wp-filesystem-direct.php)
+0017.378 () Error: Failed to delete working directory after restoring. (/home3/novus6sk/abdullahotyanga.com/wp-content/upgrade/e5db1dbe)
+0017.392 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0017.393 () Purging cache directory: /home3/novus6sk/abdullahotyanga.com/wp-content/endurance-page-cache
+0017.396 () Restore successful!
+0017.396 () Restore successful

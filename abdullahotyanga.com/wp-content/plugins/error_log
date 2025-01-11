@@ -1,0 +1,8 @@
+[18-Aug-2022 10:21:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home3/novus6sk/biotranslateinternational.org/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home3/novus6sk/biotranslateinternational.org/wp-content/plugins/hello.php on line 69
+[18-Aug-2022 10:21:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home3/novus6sk/biotranslateinternational.org/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home3/novus6sk/biotranslateinternational.org/wp-content/plugins/hello.php on line 69
